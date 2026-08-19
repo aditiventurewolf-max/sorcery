@@ -1,0 +1,533 @@
+[
+ {
+  "id": 1,
+  "college": "Gvmc, Villupuram",
+  "state": "Tamil Nadu",
+  "close": 8176,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 2,
+  "college": "Government Medical College Suryapet",
+  "state": "Telangana",
+  "close": 8209,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 3,
+  "college": "Govt. Dharamapuri Med Coll, Dharmapuri",
+  "state": "Tamil Nadu",
+  "close": 8228,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 4,
+  "college": "Irt Perundurai Medical College, Perundurai",
+  "state": "Tamil Nadu",
+  "close": 8374,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 5,
+  "college": "Sri Venkateswara Medical College, Tirupati",
+  "state": "Andhra Pradesh",
+  "close": 8815,
+  "tier": 1,
+  "cand_url": "https://svmctpt.edu.in",
+  "http": 200,
+  "reach": "OK",
+  "body_len": 44754,
+  "hot": [
+   {
+    "text": "Information_B.1 11 of MSRR",
+    "url": "https://svmctpt.edu.in/information-as-per-mci-regulations"
+   },
+   {
+    "text": "Click here Second Round Counselling Final Merit List-DMLT-2025-2026 at",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/"
+   },
+   {
+    "text": "Click here click here final merit list of DANS course at S. V. Medical",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/DANS-FINAL MERIT LIST.pdf"
+   },
+   {
+    "text": "Click here for Final merit list , for appointment Lab Technicians Grad",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/Lab%20Technician%20Gr-II.pdf"
+   },
+   {
+    "text": "Click here for Final merit list , for appointment data manager in Heal",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/Data%20Manager.pdf"
+   },
+   {
+    "text": "Click here for Privisional merit list of Data Manager posts under AMR ",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/DEO%20MERIT%20LIST%202025_0001.pdf"
+   },
+   {
+    "text": "Click here for Privisional merit list of Lab-Tech Gr.II under AMR Surv",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/LT%20final%20merit%20list%202025_0001.pdf"
+   },
+   {
+    "text": "Click here for 2nd counselling merit list of paramedical course DANS a",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/DANS final merit list .pdf"
+   },
+   {
+    "text": "Click here for 2nd counselling merit list of paramedical course DMLT a",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/DP DMLT final merit list .pdf"
+   },
+   {
+    "text": "Click here for provisional merit list of SR recruitment at S V Medical",
+    "url": "https://svmctpt.edu.in/assets/images/CMS/Senior%20Resident%20provisional%20seniority%20list.pdf"
+   },
+   {
+    "text": "Click here for the details of 2nd counselling of various paramedical c",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/2nd_counselling_paramedical.PDF"
+   },
+   {
+    "text": "Final merit list of 2ND notification of Stretcher Bearer of GMH , Tiru",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/2ND_NOTIFICATION_OF_STRECTHER_BEARER.pdf"
+   },
+   {
+    "text": "Provisional merit list of specific categories notified through re noti",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Provisional_Merit_list_of_4_cadres.pdf"
+   },
+   {
+    "text": "Click here for the final merit list of DEO\u2019s, Lab technicians and Offi",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/fianl_list_of_LTDEOOS.pdf"
+   },
+   {
+    "text": "Click this scroll for the for final merit list of various posts notifi",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_10_cadres.pdf"
+   },
+   {
+    "text": "Click here for the final merit list of lab attendants on contract basi",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_lab_Attendent.PDF"
+   },
+   {
+    "text": "Click here for the final merit list of Physical director on contract b",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_Physical_Director.PDF"
+   },
+   {
+    "text": "Click here for the final merit list of MPHA (F) on contract basis at S",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_MPHA_female.PDF"
+   },
+   {
+    "text": "Click here for the final merit list of Ayah on contract basis at S V M",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_Ayah.PDF"
+   },
+   {
+    "text": "Click here for the final merit list of Mortuary assistant on contract ",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_Mortury_Mechanic.PDF"
+   },
+   {
+    "text": "Click here for the final merit list of dark room assistant on contract",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_Merit_List_of_DRA.PDF"
+   },
+   {
+    "text": "Click this scroll for the for the final merit list of various posts no",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/ LETTER_WITH_FINAL_MERIT_LIST.pdf"
+   },
+   {
+    "text": "Click this scroll for the for the merit list of lab technicians on con",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Final_merit_list_of_LT_301220211.pdf"
+   },
+   {
+    "text": "Click this scroll for the for the merit list of DEO (data entry Operat",
+    "url": "https://svmctpt.edu.in/ssets/images/announcements/Revised_Provional_merit_list_of_DEO,_S_V_Medical_College,_Tirupati.pdf"
+   },
+   {
+    "text": "Click this scroll for the for the merit list of office subordinates on",
+    "url": "https://svmctpt.edu.in/assets/images/announcements/Provisional_merit_list_of_office_suboridinate.pdf"
+   }
+  ],
+  "n_links": 338
+ },
+ {
+  "id": 6,
+  "college": "Indira Gandhi Medical College & Ri, Puducherry",
+  "state": "Puducherry",
+  "close": 8875,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 7,
+  "college": "Government Medical College, Tiruppur",
+  "state": "Tamil Nadu",
+  "close": 8914,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 8,
+  "college": "Hassan Inst. Medical Sciences, Hassan",
+  "state": "Karnataka",
+  "close": 8923,
+  "tier": 1,
+  "cand_url": "http://www.rithassan.org",
+  "http": 523,
+  "reach": "HTTP523"
+ },
+ {
+  "id": 9,
+  "college": "Kakatiya Medical College Warangal",
+  "state": "Telangana",
+  "close": 8974,
+  "tier": 1,
+  "cand_url": "https://www.kmcwgl.com",
+  "http": 200,
+  "reach": "OK",
+  "body_len": 664,
+  "hot": [],
+  "n_links": 1
+ },
+ {
+  "id": 10,
+  "college": "Government Medical College, Nilgiris",
+  "state": "Tamil Nadu",
+  "close": 9034,
+  "tier": 1,
+  "cand_url": "https://gmchnilgiris.ac.in",
+  "http": 403,
+  "reach": "HTTP403"
+ },
+ {
+  "id": 11,
+  "college": "Shimoga Inst. Of Medical Sci., Shimoga",
+  "state": "Karnataka",
+  "close": 9413,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 12,
+  "college": "Govt. Sivgangai M. C. Sivagangai",
+  "state": "Tamil Nadu",
+  "close": 9427,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 13,
+  "college": "Govt. Medical College Karur",
+  "state": "Tamil Nadu",
+  "close": 9450,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 14,
+  "college": "Siddartha Medical College, Vijayawada",
+  "state": "Andhra Pradesh",
+  "close": 9675,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 15,
+  "college": "Rims, Ongole",
+  "state": "Andhra Pradesh",
+  "close": 9708,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 16,
+  "college": "Thiruvannamalai Mc, Thiruvannamalai",
+  "state": "Tamil Nadu",
+  "close": 9897,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 17,
+  "college": "Rajah Muthiah Medical College, Annamalai Universit",
+  "state": "Tamil Nadu",
+  "close": 9926,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 18,
+  "college": "Government Medical College, Dindigul",
+  "state": "Tamil Nadu",
+  "close": 9955,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 19,
+  "college": "Esic Medical College, Gulbarga",
+  "state": "Karnataka",
+  "close": 9966,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 20,
+  "college": "Government Medical College, Namakkal",
+  "state": "Tamil Nadu",
+  "close": 10014,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 21,
+  "college": "Government Medical College, Quthbullapur",
+  "state": "Telangana",
+  "close": 10381,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 22,
+  "college": "Gtmc, Thiruvarur",
+  "state": "Tamil Nadu",
+  "close": 10400,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 23,
+  "college": "Gulbarga Institute Of Medical Sciences, Gulbarga",
+  "state": "Karnataka",
+  "close": 10554,
+  "tier": 1,
+  "cand_url": "https://bmcribengaluru.karnataka.gov.in",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 24,
+  "college": "Government Medical College, Krishnagiri",
+  "state": "Tamil Nadu",
+  "close": 10674,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 25,
+  "college": "Government Medical College",
+  "state": "Tamil Nadu",
+  "close": 10875,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 26,
+  "college": "Vijaynagar Inst Of Med. Sc, Bellary",
+  "state": "Karnataka",
+  "close": 11026,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 27,
+  "college": "Govt. Pudukkottai Medical College Hopt., Pudukkott",
+  "state": "Tamil Nadu",
+  "close": 11149,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 28,
+  "college": "Government Medical College, Nizamabad",
+  "state": "Telangana",
+  "close": 11152,
+  "tier": 1,
+  "cand_url": "https://www.gmcnzb.org",
+  "http": 200,
+  "reach": "OK",
+  "body_len": 109,
+  "spa": true,
+  "hot": [],
+  "n_links": 0
+ },
+ {
+  "id": 29,
+  "college": "Gadag Institute Of Medical Sciences, Gadag Institute Of Medical Sciences",
+  "state": "Karnataka",
+  "close": 11211,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 30,
+  "college": "Government Medical College, Ariyalur",
+  "state": "Tamil Nadu",
+  "close": 11373,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 31,
+  "college": "Government Medical College, Ramanathapuram",
+  "state": "Tamil Nadu",
+  "close": 11523,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 32,
+  "college": "Government Medical College, Ananthapuram",
+  "state": "Andhra Pradesh",
+  "close": 11786,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 33,
+  "college": "Bidar Institute Of Medical Sci., Bidar",
+  "state": "Karnataka",
+  "close": 11883,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 34,
+  "college": "Government Medical College, Kallakurichi",
+  "state": "Tamil Nadu",
+  "close": 11990,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 35,
+  "college": "Andaman And Nicobar Islands Institute Of Medical S, Director Aniims",
+  "state": "Andaman & Nicobar",
+  "close": 12014,
+  "tier": 1,
+  "cand_url": "http://andssw1.and.nic.in/ANIIMS",
+  "http": 403,
+  "reach": "HTTP403"
+ },
+ {
+  "id": 36,
+  "college": "Kodagu Institute Of Medical Sciences, Kodagu",
+  "state": "Karnataka",
+  "close": 12096,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 37,
+  "college": "Government Medical College, Nagapattinam",
+  "state": "Tamil Nadu",
+  "close": 12262,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 38,
+  "college": "Haveri Institute Of Medical Sciences, Karnataka",
+  "state": "Karnataka",
+  "close": 12288,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 39,
+  "college": "C. Institute Of Medical Sciences",
+  "state": "Karnataka",
+  "close": 12303,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 40,
+  "college": "Acsr Govt Medical College, Nellore",
+  "state": "Andhra Pradesh",
+  "close": 12352,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 41,
+  "college": "Chikkaballapura Institute Of Medical Sciences, Karnataka",
+  "state": "Karnataka",
+  "close": 12520,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 42,
+  "college": "Karwar Institute Of Medical Sciences, Karwar",
+  "state": "Karnataka",
+  "close": 12698,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 43,
+  "college": "Svims - Sri Padmavathi Medical College For Women, Tirupati",
+  "state": "Andhra Pradesh",
+  "close": 12719,
+  "tier": 1,
+  "cand_url": "https://web.archive.org/web/20040626081615/http://www.hindu.com/edu/2004/05/31/stories/2004053100340200.htm",
+  "http": 0,
+  "reach": "DEAD(conn-reset)"
+ },
+ {
+  "id": 44,
+  "college": "Rajiv Gandhi Institute Medical Sce Of Adilabad",
+  "state": "Telangana",
+  "close": 12965,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ },
+ {
+  "id": 45,
+  "college": "Raichur Inst. Of Medical Sci., Raichur",
+  "state": "Karnataka",
+  "close": 12980,
+  "tier": 1,
+  "cand_url": null,
+  "reach": "NO-DOMAIN"
+ }
+]
