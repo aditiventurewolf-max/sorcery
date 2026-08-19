@@ -1,0 +1,2269 @@
+[
+ {
+  "id": 1,
+  "college": "Gvmc, Villupuram",
+  "state": "Tamil Nadu",
+  "close": 8176,
+  "tried": [
+   "https://gmcvillupuram.ac.in"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 2,
+  "college": "Government Medical College Suryapet",
+  "state": "Telangana",
+  "close": 8209,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 3,
+  "college": "Govt. Dharamapuri Med Coll, Dharmapuri",
+  "state": "Tamil Nadu",
+  "close": 8228,
+  "tried": [
+   "https://dharmapurimedicalcollege.in"
+  ],
+  "site": "https://dharmapurimedicalcollege.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 17621
+ },
+ {
+  "id": 4,
+  "college": "Irt Perundurai Medical College, Perundurai",
+  "state": "Tamil Nadu",
+  "close": 8374,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 5,
+  "college": "Sri Venkateswara Medical College, Tirupati",
+  "state": "Andhra Pradesh",
+  "close": 8815,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 6,
+  "college": "Indira Gandhi Medical College & Ri, Puducherry",
+  "state": "Puducherry",
+  "close": 8875,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 7,
+  "college": "Government Medical College, Tiruppur",
+  "state": "Tamil Nadu",
+  "close": 8914,
+  "tried": [
+   "https://gmchtiruppur.ac.in",
+   "https://tiruppurmedicalcollege.in"
+  ],
+  "site": "https://gmchtiruppur.ac.in",
+  "hot": [
+   {
+    "text": "Student Merit List",
+    "url": "https://tiruppurmedicalcollege.in/page/student-merit-list"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 11688
+ },
+ {
+  "id": 8,
+  "college": "Hassan Inst. Medical Sciences, Hassan",
+  "state": "Karnataka",
+  "close": 8923,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 9,
+  "college": "Kakatiya Medical College Warangal",
+  "state": "Telangana",
+  "close": 8974,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 10,
+  "college": "Government Medical College, Nilgiris",
+  "state": "Tamil Nadu",
+  "close": 9034,
+  "tried": [
+   "https://gmchnilgiris.ac.in",
+   "https://nilgirismedicalcollege.com"
+  ],
+  "site": "https://nilgirismedicalcollege.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 16361
+ },
+ {
+  "id": 11,
+  "college": "Shimoga Inst. Of Medical Sci., Shimoga",
+  "state": "Karnataka",
+  "close": 9413,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 12,
+  "college": "Govt. Sivgangai M. C. Sivagangai",
+  "state": "Tamil Nadu",
+  "close": 9427,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 13,
+  "college": "Govt. Medical College Karur",
+  "state": "Tamil Nadu",
+  "close": 9450,
+  "tried": [
+   "https://karurgmc.ac.in"
+  ],
+  "site": "https://karurgmc.ac.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 13275
+ },
+ {
+  "id": 14,
+  "college": "Siddartha Medical College, Vijayawada",
+  "state": "Andhra Pradesh",
+  "close": 9675,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 15,
+  "college": "Rims, Ongole",
+  "state": "Andhra Pradesh",
+  "close": 9708,
+  "tried": [
+   "https://gmcongole.org"
+  ],
+  "site": "https://gmcongole.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 13026
+ },
+ {
+  "id": 16,
+  "college": "Thiruvannamalai Mc, Thiruvannamalai",
+  "state": "Tamil Nadu",
+  "close": 9897,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 17,
+  "college": "Rajah Muthiah Medical College, Annamalai Universit",
+  "state": "Tamil Nadu",
+  "close": 9926,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 18,
+  "college": "Government Medical College, Dindigul",
+  "state": "Tamil Nadu",
+  "close": 9955,
+  "tried": [
+   "https://gmcdindigul.ac.in"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 19,
+  "college": "Esic Medical College, Gulbarga",
+  "state": "Karnataka",
+  "close": 9966,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 20,
+  "college": "Government Medical College, Namakkal",
+  "state": "Tamil Nadu",
+  "close": 10014,
+  "tried": [
+   "https://namakkalmedicalcollege.in"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 21,
+  "college": "Government Medical College, Quthbullapur",
+  "state": "Telangana",
+  "close": 10381,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 22,
+  "college": "Gtmc, Thiruvarur",
+  "state": "Tamil Nadu",
+  "close": 10400,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 23,
+  "college": "Gulbarga Institute Of Medical Sciences, Gulbarga",
+  "state": "Karnataka",
+  "close": 10554,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 24,
+  "college": "Government Medical College, Krishnagiri",
+  "state": "Tamil Nadu",
+  "close": 10674,
+  "tried": [
+   "https://gmckrishnagiri.org",
+   "https://gmckrishnagiri.ac.in"
+  ],
+  "site": "https://gmckrishnagiri.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 52641
+ },
+ {
+  "id": 25,
+  "college": "Government Medical College",
+  "state": "Tamil Nadu",
+  "close": 10875,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 26,
+  "college": "Vijaynagar Inst Of Med. Sc, Bellary",
+  "state": "Karnataka",
+  "close": 11026,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 27,
+  "college": "Govt. Pudukkottai Medical College Hopt., Pudukkott",
+  "state": "Tamil Nadu",
+  "close": 11149,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 28,
+  "college": "Government Medical College, Nizamabad",
+  "state": "Telangana",
+  "close": 11152,
+  "tried": [
+   "https://mcnizamabad.in"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 29,
+  "college": "Gadag Institute Of Medical Sciences, Gadag Institute Of Medical Sciences",
+  "state": "Karnataka",
+  "close": 11211,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 30,
+  "college": "Government Medical College, Ariyalur",
+  "state": "Tamil Nadu",
+  "close": 11373,
+  "tried": [
+   "https://ariyalurmedicalcollege.in"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 31,
+  "college": "Government Medical College, Ramanathapuram",
+  "state": "Tamil Nadu",
+  "close": 11523,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 32,
+  "college": "Government Medical College, Ananthapuram",
+  "state": "Andhra Pradesh",
+  "close": 11786,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 33,
+  "college": "Bidar Institute Of Medical Sci., Bidar",
+  "state": "Karnataka",
+  "close": 11883,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 34,
+  "college": "Government Medical College, Kallakurichi",
+  "state": "Tamil Nadu",
+  "close": 11990,
+  "tried": [
+   "https://gmckallakurichi.ac.in"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 35,
+  "college": "Andaman And Nicobar Islands Institute Of Medical S, Director Aniims",
+  "state": "Andaman & Nicobar",
+  "close": 12014,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 36,
+  "college": "Kodagu Institute Of Medical Sciences, Kodagu",
+  "state": "Karnataka",
+  "close": 12096,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 37,
+  "college": "Government Medical College, Nagapattinam",
+  "state": "Tamil Nadu",
+  "close": 12262,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 38,
+  "college": "Haveri Institute Of Medical Sciences, Karnataka",
+  "state": "Karnataka",
+  "close": 12288,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 39,
+  "college": "C. Institute Of Medical Sciences",
+  "state": "Karnataka",
+  "close": 12303,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 40,
+  "college": "Acsr Govt Medical College, Nellore",
+  "state": "Andhra Pradesh",
+  "close": 12352,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 41,
+  "college": "Chikkaballapura Institute Of Medical Sciences, Karnataka",
+  "state": "Karnataka",
+  "close": 12520,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 42,
+  "college": "Karwar Institute Of Medical Sciences, Karwar",
+  "state": "Karnataka",
+  "close": 12698,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 43,
+  "college": "Svims - Sri Padmavathi Medical College For Women, Tirupati",
+  "state": "Andhra Pradesh",
+  "close": 12719,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 44,
+  "college": "Rajiv Gandhi Institute Medical Sce Of Adilabad",
+  "state": "Telangana",
+  "close": 12965,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 45,
+  "college": "Raichur Inst. Of Medical Sci., Raichur",
+  "state": "Karnataka",
+  "close": 12980,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 46,
+  "college": "Government Medical College, Nashik",
+  "state": "Maharashtra",
+  "close": 8011,
+  "tried": [
+   "https://gmcnashik.in"
+  ],
+  "site": "https://gmcnashik.in",
+  "hot": [
+   {
+    "text": "Scholarship",
+    "url": "https://gmcnashik.in/documents/SCHOLERSHIP_STUDENT_LIST_2024_25_And_2025_26.pdf"
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://gmcnashik.in/documents/SCHOLERSHIP_STUDENT_LIST_2024_25_And_2025_26.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 37571,
+    "name_header": true,
+    "name_header_text": "Student Name",
+    "roster_rows_est": 148,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2024-2025",
+     "2025-2026"
+    ],
+    "verdict_hint": "NAME-LIST"
+   }
+  ],
+  "note": "",
+  "body_len": 32583
+ },
+ {
+  "id": 47,
+  "college": "Namo Medical Education & Research Institute, Govt Medical College Silvassa",
+  "state": "DNH & DD",
+  "close": 8069,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 48,
+  "college": "Sagar Dutta Medical College & Hospital, Kolkata",
+  "state": "West Bengal",
+  "close": 8390,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 49,
+  "college": "Sri Jagannath Medical College & Hospital, Puri",
+  "state": "Odisha",
+  "close": 8718,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 50,
+  "college": "Saheed Laxman Nayak Med. College And Hos., Koraput",
+  "state": "Odisha",
+  "close": 9193,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 51,
+  "college": "Govt Medical College Baramati",
+  "state": "Maharashtra",
+  "close": 9314,
+  "tried": [
+   "https://baramatimc.org",
+   "https://gmcbaramati.org"
+  ],
+  "site": "https://baramatimc.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 21884
+ },
+ {
+  "id": 52,
+  "college": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad",
+  "state": "Jharkhand",
+  "close": 9623,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 53,
+  "college": "Esic Pgimsr, Joka",
+  "state": "West Bengal",
+  "close": 9732,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 54,
+  "college": "Chhattisgarh Institute Of Medical Sciences, Bilasp",
+  "state": "Chhattisgarh",
+  "close": 9779,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 55,
+  "college": "Mg Inst. Of Medical Sciences, Sevagram Wardha",
+  "state": "Maharashtra",
+  "close": 9917,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 56,
+  "college": "Burdwan Medical College, Burdwan",
+  "state": "West Bengal",
+  "close": 10078,
+  "tried": [
+   "https://burdwanmedicalcollege.org"
+  ],
+  "site": "https://burdwanmedicalcollege.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 5809
+ },
+ {
+  "id": 57,
+  "college": "Medinirai Medical College (Previously Known As Palamu Medical College)",
+  "state": "Jharkhand",
+  "close": 10270,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 58,
+  "college": "Dr. Vaishampayam Memorial M.C., Sholapur",
+  "state": "Maharashtra",
+  "close": 10285,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 59,
+  "college": "Gmers Medical College",
+  "state": "Gujarat",
+  "close": 10293,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 60,
+  "college": "Government Medical College, Miraj",
+  "state": "Maharashtra",
+  "close": 10401,
+  "tried": [
+   "https://gmcmiraj.edu.in"
+  ],
+  "site": "https://gmcmiraj.edu.in",
+  "hot": [
+   {
+    "text": "Student Corner",
+    "url": "https://gmcmiraj.edu.in/node/505"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 122048
+ },
+ {
+  "id": 61,
+  "college": "North Bengal Med.Coll, Darjeeling",
+  "state": "West Bengal",
+  "close": 10533,
+  "tried": [
+   "https://mcnorth.com",
+   "https://northmc.com"
+  ],
+  "site": "https://mcnorth.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 7193
+ },
+ {
+  "id": 62,
+  "college": "Gmers Medical College, Morbi",
+  "state": "Gujarat",
+  "close": 10609,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 63,
+  "college": "Neigrihms, Shillong",
+  "state": "Meghalaya",
+  "close": 10679,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 64,
+  "college": "College Of Medicine And Jnm Hospital, Kalyani",
+  "state": "West Bengal",
+  "close": 10895,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 65,
+  "college": "Diamond Harbour Govt Medical College, New Town",
+  "state": "West Bengal",
+  "close": 10909,
+  "tried": [
+   "https://mcdiamond.com"
+  ],
+  "site": "https://mcdiamond.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 602
+ },
+ {
+  "id": 66,
+  "college": "Chandulal Chandrakar Memorial Government Medical College, Durg",
+  "state": "Chhattisgarh",
+  "close": 10942,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 67,
+  "college": "Goverment Medical College Nandurbar Mahararastra",
+  "state": "Maharashtra",
+  "close": 11157,
+  "tried": [
+   "https://gmcnandurbar.com"
+  ],
+  "site": "https://gmcnandurbar.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 46816
+ },
+ {
+  "id": 68,
+  "college": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College Kolhapur, Rajarshee",
+  "state": "Maharashtra",
+  "close": 11177,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 69,
+  "college": "Lt. B R K Government Medical College, Jagdalpur",
+  "state": "Chhattisgarh",
+  "close": 11198,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 70,
+  "college": "Dr.S.C.Govt Medical College, Nanded",
+  "state": "Maharashtra",
+  "close": 11240,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 71,
+  "college": "Sh Vasant Rao Naik Govt.M.C., Yavatmal",
+  "state": "Maharashtra",
+  "close": 11519,
+  "tried": [
+   "https://yavatmalmc.org"
+  ],
+  "site": "https://yavatmalmc.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 7762
+ },
+ {
+  "id": 72,
+  "college": "Assam Medical College, Dibrugarh",
+  "state": "Assam",
+  "close": 11571,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 73,
+  "college": "Government Of Medical College And Hospital, Balasore",
+  "state": "Odisha",
+  "close": 11639,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 74,
+  "college": "Barasat Government Medical College & Hospital, West Bengal",
+  "state": "West Bengal",
+  "close": 11775,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 75,
+  "college": "Jorhat Medical College And Hospital, Jorhat",
+  "state": "Assam",
+  "close": 11815,
+  "tried": [
+   "https://jorhatmedicalcollege.in"
+  ],
+  "site": "https://jorhatmedicalcollege.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 38559
+ },
+ {
+  "id": 76,
+  "college": "Bankura Sammilani Med Coll, Bankura",
+  "state": "West Bengal",
+  "close": 11895,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 77,
+  "college": "Govt. Medical College And Hospital, Chandrapur",
+  "state": "Maharashtra",
+  "close": 12027,
+  "tried": [
+   "https://gmcchandrapur.org",
+   "https://chandrapurmc.org"
+  ],
+  "site": "https://gmcchandrapur.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 27448
+ },
+ {
+  "id": 78,
+  "college": "Sheikh Bhikhari Medical College & Hospital, Hazaribag ( Formerly Called",
+  "state": "Jharkhand",
+  "close": 12056,
+  "tried": [
+   "https://hazaribagmedicalcollege.org"
+  ],
+  "site": "https://hazaribagmedicalcollege.org",
+  "hot": [
+   {
+    "text": "2025\u201326 mbbs admission list",
+    "url": "https://hazaribagmedicalcollege.org/index.php/https-hmchazjha-nmcindia-ac-in/"
+   },
+   {
+    "text": "College Information",
+    "url": "https://hazaribagmedicalcollege.org/index.php/college-information/"
+   },
+   {
+    "text": "Click here",
+    "url": "https://hazaribagmedicalcollege.org/index.php/student-list/"
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://hazaribagmedicalcollege.org/wp-content/uploads/2026/01/MBBS-Admission-List-2025-26.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 905858,
+    "name_header": true,
+    "name_header_text": "Name of Student",
+    "roster_rows_est": 153,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2025",
+     "2025-2026",
+     "2026"
+    ],
+    "verdict_hint": "NAME-LIST"
+   },
+   {
+    "url": "http://hazaribagmedicalcollege.org/wp-content/uploads/2026/01/Medical-Council-Of-India-2023-24-ADMISSION-LIST.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 1127358,
+    "name_header": true,
+    "name_header_text": "Name of Student",
+    "roster_rows_est": 194,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2023",
+     "2023-2024"
+    ],
+    "verdict_hint": "NAME-LIST"
+   },
+   {
+    "url": "http://hazaribagmedicalcollege.org/wp-content/uploads/2022/05/Students-List-2021-22-1.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 1051860,
+    "name_header": true,
+    "name_header_text": "Name of Student",
+    "roster_rows_est": 103,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2021-22"
+    ],
+    "verdict_hint": "NAME-LIST"
+   },
+   {
+    "url": "http://hazaribagmedicalcollege.org/wp-content/uploads/2019/11/Student-List-2019.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 218878,
+    "name_header": false,
+    "name_header_text": "",
+    "roster_rows_est": 143,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2019",
+     "2019-20",
+     "2020",
+     "2025",
+     "2029",
+     "2035",
+     "2042",
+     "2062",
+     "2081",
+     "2082",
+     "2089",
+     "2090",
+     "2094"
+    ],
+    "verdict_hint": "MAYBE"
+   }
+  ],
+  "note": "",
+  "body_len": 13216
+ },
+ {
+  "id": 79,
+  "college": "Lt. L A M Govt. Medical College, Raigarh",
+  "state": "Chhattisgarh",
+  "close": 12091,
+  "tried": [
+   "https://gmcraigarh.edu.in"
+  ],
+  "site": "https://gmcraigarh.edu.in",
+  "hot": [
+   {
+    "text": "NMC Mandatory Disclosures",
+    "url": "https://gmcraigarh.edu.in/nmcmandatory.php"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 2156
+ },
+ {
+  "id": 80,
+  "college": "Government Medical College And District General Hospital, Ratnagiri",
+  "state": "Maharashtra",
+  "close": 12093,
+  "tried": [
+   "https://gmcratnagiri.in"
+  ],
+  "site": "https://gmcratnagiri.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 54345
+ },
+ {
+  "id": 81,
+  "college": "Government Medical College And General Hospital",
+  "state": "Maharashtra",
+  "close": 12178,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 82,
+  "college": "Regional Inst Of Medical Sci, Imphal",
+  "state": "Manipur",
+  "close": 12184,
+  "tried": [
+   "https://regionalmc.org",
+   "https://mcregional.com"
+  ],
+  "site": "https://regionalmc.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 6345
+ },
+ {
+  "id": 83,
+  "college": "Government Medical College, Latur",
+  "state": "Maharashtra",
+  "close": 12233,
+  "tried": [
+   "https://mclatur.org",
+   "https://mclatur.in",
+   "https://gmclatur.org"
+  ],
+  "site": "https://mclatur.org",
+  "hot": [
+   {
+    "text": "\u0932\u093e\u0924\u0942\u0930 \u0936\u0939\u0930 \u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e \u0932\u093e\u0924\u0942\u0930 - \u0938\u0930\u0933 \u0938\u0947\u0935\u093e \u092d\u0930\u0924\u0940 \u0967\u0969 \u0938\u0902\u0935\u0930\u094d\u0917\u093e\u091a\u0940 \u092e\u0947\u0930\u093f\u091f \u0932\u093f\u0938\u094d\u091f ",
+    "url": "https://mclatur.org/merit-list/"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 19312
+ },
+ {
+  "id": 84,
+  "college": "Agartala Govt. Medical College, Agartala",
+  "state": "Tripura",
+  "close": 12341,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 85,
+  "college": "Bhima Bhoi Medical College And Hospital, Balangir",
+  "state": "Odisha",
+  "close": 12424,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 86,
+  "college": "Pt. Raghunath Murmu Med. College, Baripada",
+  "state": "Odisha",
+  "close": 12463,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 87,
+  "college": "Government Medical College, Bhandara",
+  "state": "Maharashtra",
+  "close": 12648,
+  "tried": [
+   "https://gmcbhandara.edu.in"
+  ],
+  "site": "https://gmcbhandara.edu.in",
+  "hot": [
+   {
+    "text": "Merit list of selected Senior Residents as per Advt No 364",
+    "url": "https://gmcbhandara.edu.in/portfolio/merit-list-of-selected-senior-residents-as-per-advt-no-364/"
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://gmcbhandara.edu.in/wp-content/uploads/2026/05/Merit-list-of-Senior-Resident-for-interview-conduted-on.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 365997
+   }
+  ],
+  "note": "",
+  "body_len": 13340
+ },
+ {
+  "id": 88,
+  "college": "Midnapore Medical College, Midnapur",
+  "state": "West Bengal",
+  "close": 12676,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 89,
+  "college": "Shri Bhausaheb Hire Govt. M.C., Dhule",
+  "state": "Maharashtra",
+  "close": 12677,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 90,
+  "college": "Swami Ramanand Tirth Rural M.C, Ambajogai",
+  "state": "Maharashtra",
+  "close": 12681,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 91,
+  "college": "Tezpur Medical College, Tezpur",
+  "state": "Assam",
+  "close": 12773,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 92,
+  "college": "Government Medical College, Kanker",
+  "state": "Chhattisgarh",
+  "close": 12797,
+  "tried": [
+   "https://gmckanker.in"
+  ],
+  "site": "https://gmckanker.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 52497
+ },
+ {
+  "id": 93,
+  "college": "Government Medical College, Akola",
+  "state": "Maharashtra",
+  "close": 12815,
+  "tried": [
+   "https://akolamc.in",
+   "https://gmcakola.in"
+  ],
+  "site": "https://akolamc.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 20247
+ },
+ {
+  "id": 94,
+  "college": "Pt. Jawahar Lal Nehru Govt. Med. College, Chamba",
+  "state": "Himachal Pradesh",
+  "close": 8222,
+  "tried": [
+   "https://gmcchamba.edu.in",
+   "https://mcchamba.in"
+  ],
+  "site": "https://mcchamba.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 28656
+ },
+ {
+  "id": 95,
+  "college": "S.S. Medical College, Rewa",
+  "state": "Madhya Pradesh",
+  "close": 8400,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 96,
+  "college": "Govt Medical College",
+  "state": "Rajasthan",
+  "close": 8491,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 97,
+  "college": "Govt Medical College Barmer Rajasthan",
+  "state": "Rajasthan",
+  "close": 8652,
+  "tried": [
+   "https://rajasthanmc.in"
+  ],
+  "site": "https://rajasthanmc.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 1050
+ },
+ {
+  "id": 98,
+  "college": "Jawaharlal Nehru Medical College, Bhagalpur",
+  "state": "Bihar",
+  "close": 8746,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 99,
+  "college": "Atal Bihari Vajpayee Government Medical College, Vidisha",
+  "state": "Madhya Pradesh",
+  "close": 8827,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 100,
+  "college": "Government Medical College, Jhunjhunu",
+  "state": "Rajasthan",
+  "close": 8943,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 101,
+  "college": "Government Medical College Chittorgarh, Government Medical College Chittorgarh",
+  "state": "Rajasthan",
+  "close": 9008,
+  "tried": [
+   "https://chittorgarhmc.com"
+  ],
+  "site": "https://chittorgarhmc.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 414
+ },
+ {
+  "id": 102,
+  "college": "Gmc Dausa Rajasthan, Gmc Dausa Mitrapura Bhandarej Mod Dausa",
+  "state": "Rajasthan",
+  "close": 9156,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 103,
+  "college": "Shkm Gmc, Nalhar",
+  "state": "Haryana",
+  "close": 9616,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 104,
+  "college": "Government Medical College, Haridwar",
+  "state": "Uttarakhand",
+  "close": 9655,
+  "tried": [
+   "https://gmcharidwar.com"
+  ],
+  "site": "https://gmcharidwar.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 43073
+ },
+ {
+  "id": 105,
+  "college": "Bundelkhand Medical College, Sagar",
+  "state": "Madhya Pradesh",
+  "close": 9704,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 106,
+  "college": "Govt Medical College, Dungarpur",
+  "state": "Rajasthan",
+  "close": 9960,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 107,
+  "college": "Veer Chandra Singh Garhwali Govt. Institute Of Medical Science &",
+  "state": "Uttarakhand",
+  "close": 9965,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 108,
+  "college": "Sri Krishna Medical College, Muzaffarpur",
+  "state": "Bihar",
+  "close": 10119,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 109,
+  "college": "Govt Medical College Ratlam, Gram Banjali",
+  "state": "Madhya Pradesh",
+  "close": 10378,
+  "tried": [
+   "https://gmcratlam.org"
+  ],
+  "site": "https://gmcratlam.org",
+  "hot": [
+   {
+    "text": "Information under MSR clause B.1.11",
+    "url": "https://gmcratlam.org/nmc.aspx"
+   },
+   {
+    "text": "Student List",
+    "url": "https://gmcratlam.org/student-section.aspx"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 18954
+ },
+ {
+  "id": 110,
+  "college": "Govt. Medical College, Sirohi (Rajasthan)",
+  "state": "Rajasthan",
+  "close": 10476,
+  "tried": [
+   "https://rajasthanmc.in"
+  ],
+  "site": "https://rajasthanmc.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 1050
+ },
+ {
+  "id": 111,
+  "college": "Government Medical College, Bundi",
+  "state": "Rajasthan",
+  "close": 10692,
+  "tried": [
+   "https://gmcbundi.in"
+  ],
+  "site": "https://gmcbundi.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 22091
+ },
+ {
+  "id": 112,
+  "college": "Government Medical College, Hanumangarh",
+  "state": "Rajasthan",
+  "close": 10750,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 113,
+  "college": "Government Medical College, Dholpur",
+  "state": "Rajasthan",
+  "close": 10856,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 114,
+  "college": "Anugrah Narayan Magadh Medical College, Gaya",
+  "state": "Bihar",
+  "close": 10932,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 115,
+  "college": "Gmc Karauli",
+  "state": "Rajasthan",
+  "close": 11290,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 116,
+  "college": "Govt Medical College Shivpuri, Near Katha Mill",
+  "state": "Madhya Pradesh",
+  "close": 11464,
+  "tried": [
+   "https://shivpurimedicalcollege.com"
+  ],
+  "site": "https://shivpurimedicalcollege.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 8153
+ },
+ {
+  "id": 117,
+  "college": "Govt Medical College Badaun",
+  "state": "Uttar Pradesh",
+  "close": 11575,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 118,
+  "college": "Govt. Medical College, Udhampur",
+  "state": "Jammu And Kashmir",
+  "close": 11579,
+  "tried": [
+   "https://gmcudhampur.in"
+  ],
+  "site": "https://gmcudhampur.in",
+  "hot": [
+   {
+    "text": "Revised Merit List of Junior Residents.",
+    "url": "https://gmcudhampur.in/pdf/Adobe Scan Apr 27, 2026 (2).compressed.pdf"
+   },
+   {
+    "text": "Merit List (Junior Resident)..",
+    "url": "https://gmcudhampur.in/pdf/Merit list of Junior Resident .compressed.pdf"
+   },
+   {
+    "text": "NOTICE REGARDING QUERY RELATED TO THE MERIT LIST NON GAZATTED POST GMC",
+    "url": "https://gmcudhampur.in/pdf/notice query non gazatted.pdf"
+   },
+   {
+    "text": "MERIT LIST CODING CUM COMPUTER OPERATOR.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST CODING CUM COMPUTER OPERATOR.pdf"
+   },
+   {
+    "text": "MERIT LIST OF AUDIOMETRY TECHNICIAN.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF AUDIOMETRY TECHNICIAN.pdf"
+   },
+   {
+    "text": "MERIT LIST OF CLINICAL PSYCHOLOGIST.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF CLINICAL PSYCHOLOGIST.pdf"
+   },
+   {
+    "text": "MERIT LIST OF DISSECTION HALL ATTENDENT.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF DISSECTION HALL ATTENDENT.pdf"
+   },
+   {
+    "text": "MERIT LIST OF DOCUMENTALIST",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF DOCUMENTALIST.pdf"
+   },
+   {
+    "text": "Merit List of Gardner.",
+    "url": "https://gmcudhampur.in/pdf/Merit List of Gardner.pdf"
+   },
+   {
+    "text": "MERIT LIST OF JR STAFF NURSE.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF JR.pdf"
+   },
+   {
+    "text": "MERIT LIST OF LAB ATTENDENT.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF LAB ATTENDENT.pdf"
+   },
+   {
+    "text": "MERIT LIST OF LAB TECHNICIAN.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF LAB TECHNICIAN.pdf"
+   },
+   {
+    "text": "Merit List of Radiographic Technician.",
+    "url": "https://gmcudhampur.in/pdf/Merit List of Radiographic Technician.pdf"
+   },
+   {
+    "text": "MERIT LIST OF TECHNICAL LAB ASSISTANT.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF TECHNICAL LAB ASSISTANT.pdf"
+   },
+   {
+    "text": "MERIT LIST OF TECHNICAL THEATRE ASSISTANT.",
+    "url": "https://gmcudhampur.in/pdf/MERIT LIST OF TECHNICAL THEATRE ASSISTANT.pdf"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 54966
+ },
+ {
+  "id": 119,
+  "college": "Government Medical College Purnea",
+  "state": "Bihar",
+  "close": 11672,
+  "tried": [
+   "https://gmchpurnea.com",
+   "https://gmchpurnea.org"
+  ],
+  "site": "https://gmchpurnea.com",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 27150
+ },
+ {
+  "id": 120,
+  "college": "Government Medical College, Sawai Madhopur",
+  "state": "Rajasthan",
+  "close": 11726,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 121,
+  "college": "Government Medical College, Banswara",
+  "state": "Rajasthan",
+  "close": 11845,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 122,
+  "college": "Soban Singh Jeena Government Institute Of Medical Science &",
+  "state": "Uttarakhand",
+  "close": 11917,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 123,
+  "college": "Government Medical College, Kathua",
+  "state": "Jammu And Kashmir",
+  "close": 11929,
+  "tried": [
+   "https://gmckathua.in"
+  ],
+  "site": "https://gmckathua.in",
+  "hot": [
+   {
+    "text": "Commencement of Classes of newly admitted students of BHMS courses.",
+    "url": "https://gmckathua.in/pdf/Adobe Scan Dec 06, 2025 (1).pdf"
+   },
+   {
+    "text": "Final Allotment list (First list) for allotment of Non Gazetted Staff ",
+    "url": "https://gmckathua.in/pdf/Order regarding allotment of Residential quarters (Non Gazetted) first list, GMC Kathua.compressed.pdf"
+   },
+   {
+    "text": "Notice regarding Hostel Application and Online payment for newly admit",
+    "url": "https://gmckathua.in/pdf/gmck10oct25.pdf"
+   },
+   {
+    "text": "Provisional shortlist of candidates for admission to GNM against left ",
+    "url": "https://gmckathua.in/pdf/GNMAdmissionList forleftoverseatscompressed.pdf"
+   },
+   {
+    "text": "Hostel Allotment List B Sc Nursing Students 2023.",
+    "url": "https://gmckathua.in/pdf/Hostel Allotment List B Sc Nursing Students 2023.compressed.pdf"
+   },
+   {
+    "text": "Operating cum Waiting List (2nd) of provisionally selected candidate f",
+    "url": "https://gmckathua.in/pdf/gmck27nov21.pdf"
+   },
+   {
+    "text": "Admission notice for selected candidates for Bsc Paramedical / Bsc Tec",
+    "url": "https://gmckathua.in/pdf/gmckathua12thjan2021_1.pdf"
+   },
+   {
+    "text": "Revised merit list of junior photographer GMC kathua.",
+    "url": "https://gmckathua.in/pdf/New Doc 2019-03-29 (6).pdf"
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://gmckathua.in/pdf/gmck10oct25.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 689365,
+    "name_header": false,
+    "name_header_text": "",
+    "roster_rows_est": 28,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2025",
+     "2025-26"
+    ],
+    "verdict_hint": "MAYBE"
+   },
+   {
+    "url": "https://gmckathua.in/pdf/gmck27nov21.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 128249,
+    "name_header": false,
+    "name_header_text": "",
+    "roster_rows_est": 37,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2002-2007",
+     "2021",
+     "2021-22"
+    ],
+    "verdict_hint": "MAYBE"
+   },
+   {
+    "url": "https://gmckathua.in/pdf/gmckathua12thjan2021_1.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 92424
+   }
+  ],
+  "note": "",
+  "body_len": 177687
+ },
+ {
+  "id": 124,
+  "college": "Govt. Medical College, Khandwa",
+  "state": "Madhya Pradesh",
+  "close": 11960,
+  "tried": [
+   "https://gmckhandwa.org"
+  ],
+  "site": "https://gmckhandwa.org",
+  "hot": [
+   {
+    "text": "Student List",
+    "url": "https://gmckhandwa.org/student-section.aspx"
+   }
+  ],
+  "docs": [],
+  "note": "",
+  "body_len": 19003
+ },
+ {
+  "id": 125,
+  "college": "Government Medical College, Anantnag J&K",
+  "state": "Jammu And Kashmir",
+  "close": 12163,
+  "tried": [
+   "https://gmcanantnag.ac.in"
+  ],
+  "site": "https://gmcanantnag.ac.in",
+  "hot": [
+   {
+    "text": "College information (Proforma)",
+    "url": "https://gmcanantnag.ac.in/PDFs/NMC Proforma.pdf"
+   },
+   {
+    "text": "Engagement of Selected Candidates as Technical Assistants/Technicians ",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F5258f6ec-5454-4d98-b5e9-09657182eac5.pdf"
+   },
+   {
+    "text": "Merit List of Candidates Appeared in the Written Test Held for the Pos",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F894bbc8e-1015-498d-b185-d91783955e56.pdf"
+   },
+   {
+    "text": "Merit List of candidates appeared in the written test held for the pos",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F57576267-3ce1-458c-a434-40a548df1b14.pdf"
+   },
+   {
+    "text": "Merit List of Candidates Appeared in the Written Test Held for the Pos",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F49dcf7dd-623f-43f0-a46d-07648061dfb4.pdf"
+   },
+   {
+    "text": "Provisional Merit List of candidates for the post of Jr. Staff Nurse e",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F36c9f6cf-2e63-4586-9f49-fec424cee451.pdf"
+   },
+   {
+    "text": "Provisional Merit List of Candidates for the Post of Technical Assista",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F292ce3e8-fb6b-4b8c-a63f-e439bc70e441.pdf"
+   },
+   {
+    "text": "Provisional Merit List of Candidates for the Post of Nurse on Contract",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F6e0adb59-b9b3-4a48-9877-9f846361c5dd.pdf"
+   },
+   {
+    "text": "Provisional Merit List of Candidates for the Post of Clinical Staff fo",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fa4388cb3-87a8-4308-bcb8-e96b047e16cc.pdf"
+   },
+   {
+    "text": "Provisional Merit List of candidates for the post of Nursing & Paramed",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fa54621d6-2d28-481e-be21-400f4b1a2d9c.pdf"
+   },
+   {
+    "text": "Merit List of Candidates applied for the post of Senior Resident (Gene",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Ff405ad10-d2da-4a51-aa14-94d875d9faea.pdf"
+   },
+   {
+    "text": "Merit List of candidates applied for the post of Senior Resident (Opht",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F6adba7fe-f52d-489a-ac18-fb0264c3bafa.pdf"
+   },
+   {
+    "text": "Merit list of candidates applied for the post of Senior Resident in GM",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fc9352c6a-687d-4ec7-b0a3-dae0a8c4d5a5.pdf"
+   },
+   {
+    "text": "Revised Merit list of Candidates for left over seats in various B.Sc. ",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F4a728800-e7b0-4fc6-9650-e6c8c2fc7661.pdf"
+   },
+   {
+    "text": "Merit list of Candidates for left over seats in Various Paramedical Co",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fdeec9301-eb4e-409c-b81e-878673dff64d.pdf"
+   },
+   {
+    "text": "Merit List",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fe5191f93-7a25-451e-9970-d7f51bc33ce2_B.Sc.%20Nursing%20merit%20list.pdf"
+   },
+   {
+    "text": "Admission Form for BSc Paramedical Courses (Left Over Seats ) for sele",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_2%2F43887fc7-c90a-48db-aeb6-9a787f173d66.pdf"
+   },
+   {
+    "text": "Final Revised Merit list of Candidates applied for the post of Junior ",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_4%2Fd05298a7-6585-4bc5-9c86-968a94363fdf.pdf"
+   },
+   {
+    "text": "Merit list of Candidates applied for the post of Junior Resident in Go",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_4%2F2d70840e-385c-4766-b4d0-a1a3bf0796e6.pdf"
+   },
+   {
+    "text": "Merit list of Candidates applied for the post of Senior Resident in th",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_4%2Ff87a69e7-69d2-418e-8fb5-5102e175e015.pdf"
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F5258f6ec-5454-4d98-b5e9-09657182eac5.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 1879565
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F894bbc8e-1015-498d-b185-d91783955e56.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 4720545
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F57576267-3ce1-458c-a434-40a548df1b14.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 1087929
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F49dcf7dd-623f-43f0-a46d-07648061dfb4.pdf",
+    "status": "no-text (pdf-error:PSEOF)",
+    "bytes": 16384
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F36c9f6cf-2e63-4586-9f49-fec424cee451.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 3335482
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F292ce3e8-fb6b-4b8c-a63f-e439bc70e441.pdf",
+    "status": "no-text (pdf-error:PSEOF)",
+    "bytes": 208896
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F6e0adb59-b9b3-4a48-9877-9f846361c5dd.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 1208037,
+    "name_header": false,
+    "name_header_text": "",
+    "roster_rows_est": 35,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2026"
+    ],
+    "verdict_hint": "MAYBE"
+   }
+  ],
+  "note": "",
+  "body_len": 183027
+ },
+ {
+  "id": 126,
+  "college": "Government Medical College, Baran",
+  "state": "Rajasthan",
+  "close": 12166,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 127,
+  "college": "Government Medical College, Baramulla",
+  "state": "Jammu And Kashmir",
+  "close": 12313,
+  "tried": [
+   "https://gmcbaramulla.ac.in"
+  ],
+  "site": "https://gmcbaramulla.ac.in",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 5238
+ },
+ {
+  "id": 128,
+  "college": "Goverment Medical College, Bettiah",
+  "state": "Bihar",
+  "close": 12354,
+  "tried": [
+   "https://gmcbettiah.org"
+  ],
+  "site": "https://gmcbettiah.org",
+  "hot": [],
+  "docs": [],
+  "note": "near-empty render -> JS SPA, needs headless browser",
+  "body_len": 0
+ },
+ {
+  "id": 129,
+  "college": "Virendra Kumar Sakhlecha Government Medical College, Neemuch",
+  "state": "Madhya Pradesh",
+  "close": 12370,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 130,
+  "college": "Government Medical College Satna",
+  "state": "Madhya Pradesh",
+  "close": 12744,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 131,
+  "college": "Government Medical College, Anantnag",
+  "state": "Jammu And Kashmir",
+  "close": 12749,
+  "tried": [
+   "https://gmcanantnag.ac.in"
+  ],
+  "site": "https://gmcanantnag.ac.in",
+  "hot": [
+   {
+    "text": "College information (Proforma)",
+    "url": "https://gmcanantnag.ac.in/PDFs/NMC Proforma.pdf"
+   },
+   {
+    "text": "Engagement of Selected Candidates as Technical Assistants/Technicians ",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F5258f6ec-5454-4d98-b5e9-09657182eac5.pdf"
+   },
+   {
+    "text": "Merit List of Candidates Appeared in the Written Test Held for the Pos",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F894bbc8e-1015-498d-b185-d91783955e56.pdf"
+   },
+   {
+    "text": "Merit List of candidates appeared in the written test held for the pos",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F57576267-3ce1-458c-a434-40a548df1b14.pdf"
+   },
+   {
+    "text": "Merit List of Candidates Appeared in the Written Test Held for the Pos",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F49dcf7dd-623f-43f0-a46d-07648061dfb4.pdf"
+   },
+   {
+    "text": "Provisional Merit List of candidates for the post of Jr. Staff Nurse e",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F36c9f6cf-2e63-4586-9f49-fec424cee451.pdf"
+   },
+   {
+    "text": "Provisional Merit List of Candidates for the Post of Technical Assista",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F292ce3e8-fb6b-4b8c-a63f-e439bc70e441.pdf"
+   },
+   {
+    "text": "Provisional Merit List of Candidates for the Post of Nurse on Contract",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F6e0adb59-b9b3-4a48-9877-9f846361c5dd.pdf"
+   },
+   {
+    "text": "Provisional Merit List of Candidates for the Post of Clinical Staff fo",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fa4388cb3-87a8-4308-bcb8-e96b047e16cc.pdf"
+   },
+   {
+    "text": "Provisional Merit List of candidates for the post of Nursing & Paramed",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fa54621d6-2d28-481e-be21-400f4b1a2d9c.pdf"
+   },
+   {
+    "text": "Merit List of Candidates applied for the post of Senior Resident (Gene",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Ff405ad10-d2da-4a51-aa14-94d875d9faea.pdf"
+   },
+   {
+    "text": "Merit List of candidates applied for the post of Senior Resident (Opht",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F6adba7fe-f52d-489a-ac18-fb0264c3bafa.pdf"
+   },
+   {
+    "text": "Merit list of candidates applied for the post of Senior Resident in GM",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fc9352c6a-687d-4ec7-b0a3-dae0a8c4d5a5.pdf"
+   },
+   {
+    "text": "Revised Merit list of Candidates for left over seats in various B.Sc. ",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F4a728800-e7b0-4fc6-9650-e6c8c2fc7661.pdf"
+   },
+   {
+    "text": "Merit list of Candidates for left over seats in Various Paramedical Co",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fdeec9301-eb4e-409c-b81e-878673dff64d.pdf"
+   },
+   {
+    "text": "Merit List",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2Fe5191f93-7a25-451e-9970-d7f51bc33ce2_B.Sc.%20Nursing%20merit%20list.pdf"
+   },
+   {
+    "text": "Admission Form for BSc Paramedical Courses (Left Over Seats ) for sele",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_2%2F43887fc7-c90a-48db-aeb6-9a787f173d66.pdf"
+   },
+   {
+    "text": "Final Revised Merit list of Candidates applied for the post of Junior ",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_4%2Fd05298a7-6585-4bc5-9c86-968a94363fdf.pdf"
+   },
+   {
+    "text": "Merit list of Candidates applied for the post of Junior Resident in Go",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_4%2F2d70840e-385c-4766-b4d0-a1a3bf0796e6.pdf"
+   },
+   {
+    "text": "Merit list of Candidates applied for the post of Senior Resident in th",
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_4%2Ff87a69e7-69d2-418e-8fb5-5102e175e015.pdf"
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F5258f6ec-5454-4d98-b5e9-09657182eac5.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 1879565
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F894bbc8e-1015-498d-b185-d91783955e56.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 4720545
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F57576267-3ce1-458c-a434-40a548df1b14.pdf",
+    "status": "no-text (pdf-error:PSEOF)",
+    "bytes": 16384
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F49dcf7dd-623f-43f0-a46d-07648061dfb4.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 992715,
+    "name_header": false,
+    "name_header_text": "",
+    "roster_rows_est": 30,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2020",
+     "2026",
+     "2026/  50"
+    ],
+    "verdict_hint": "MAYBE"
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F36c9f6cf-2e63-4586-9f49-fec424cee451.pdf",
+    "status": "no-text (pdf-error:PSEOF)",
+    "bytes": 81920
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F292ce3e8-fb6b-4b8c-a63f-e439bc70e441.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 4378030
+   },
+   {
+    "url": "https://gmcanantnag.ac.in/files/view/Uploads%2FNotifications%2FUserType_1%2FCategory_1%2F6e0adb59-b9b3-4a48-9877-9f846361c5dd.pdf",
+    "status": "no-text (pdf-error:PSEOF)",
+    "bytes": 405504
+   }
+  ],
+  "note": "",
+  "body_len": 183027
+ },
+ {
+  "id": 132,
+  "college": "Government Medical College, Seoni",
+  "state": "Madhya Pradesh",
+  "close": 12759,
+  "tried": [
+   "https://gmcseoni.org",
+   "https://gmcseoni.edu.in"
+  ],
+  "site": "https://gmcseoni.org",
+  "hot": [],
+  "docs": [],
+  "note": "",
+  "body_len": 16974
+ },
+ {
+  "id": 133,
+  "college": "Government Medical College, Doda",
+  "state": "Jammu And Kashmir",
+  "close": 12808,
+  "tried": [],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 134,
+  "college": "Chhindwara Institute Of Medical Sciences, Teachers Colony",
+  "state": "Madhya Pradesh",
+  "close": 12859,
+  "tried": [
+   "https://colonymc.com"
+  ],
+  "site": null,
+  "hot": [],
+  "docs": [],
+  "note": "no reachable site among candidates"
+ },
+ {
+  "id": 135,
+  "college": "Goverment Medical College, Datia",
+  "state": "Madhya Pradesh",
+  "close": 12938,
+  "tried": [
+   "https://datiamedicalcollege.com",
+   "https://datiamedicalcollege.edu.in"
+  ],
+  "site": "https://datiamedicalcollege.com",
+  "hot": [
+   {
+    "text": "Information under MSR clause B.1.11",
+    "url": "https://datiamedicalcollege.edu.in/information-under-msr-clause-b-1-11/"
+   },
+   {
+    "text": "GMC Datia Student list 2021",
+    "url": "https://datiamedicalcollege.edu.in/2022/04/12/gmc-datia-student-list-2021/"
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://datiamedicalcollege.edu.in/wp-content/uploads/2026/06/Faculty-list-current.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 1619267
+   },
+   {
+    "url": "https://datiamedicalcollege.edu.in/wp-content/uploads/2026/06/list-of-publications-in-Ophthalmology-dept.pdf",
+    "status": "no-text (pdf-image-or-empty)",
+    "bytes": 1678415
+   },
+   {
+    "url": "https://datiamedicalcollege.edu.in/wp-content/uploads/2026/06/batch2025.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 199898,
+    "name_header": true,
+    "name_header_text": "Name of Student",
+    "roster_rows_est": 136,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2025"
+    ],
+    "verdict_hint": "NAME-LIST"
+   },
+   {
+    "url": "https://datiamedicalcollege.edu.in/wp-content/uploads/2026/06/batch2023.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 594206,
+    "name_header": true,
+    "name_header_text": "Name of Student",
+    "roster_rows_est": 282,
+    "mentions_AIQ": false,
+    "mentions_state_quota": false,
+    "sessions_seen": [],
+    "verdict_hint": "NAME-LIST"
+   },
+   {
+    "url": "https://datiamedicalcollege.edu.in/wp-content/uploads/2023/06/MBBS-Batch-2022.pdf",
+    "status": "OK",
+    "kind": "pdf",
+    "bytes": 292242,
+    "name_header": false,
+    "name_header_text": "",
+    "roster_rows_est": 201,
+    "mentions_AIQ": true,
+    "mentions_state_quota": false,
+    "sessions_seen": [
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2022"
+    ],
+    "verdict_hint": "MAYBE"
+   }
+  ],
+  "note": "",
+  "body_len": 17038
+ }
+]

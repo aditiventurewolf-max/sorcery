@@ -1,0 +1,62 @@
+[
+ {
+  "id": 5,
+  "college": "Sri Venkateswara Medical College, Tirupati",
+  "state": "Andhra Pradesh",
+  "close": 8815,
+  "url": "https://svmctpt.edu.in",
+  "wiki_title": "Sri Venkateswara Medical College",
+  "http": 200,
+  "bytes": 93717
+ },
+ {
+  "id": 8,
+  "college": "Hassan Inst. Medical Sciences, Hassan",
+  "state": "Karnataka",
+  "close": 8923,
+  "url": "http://rouhanihassan.com",
+  "wiki_title": "Hassan Rouhani",
+  "http": 503,
+  "bytes": 114
+ },
+ {
+  "id": 9,
+  "college": "Kakatiya Medical College Warangal",
+  "state": "Telangana",
+  "close": 8974,
+  "url": "https://www.kmcwgl.com",
+  "wiki_title": "Kakatiya Medical College",
+  "http": 200,
+  "bytes": 4971
+ },
+ {
+  "id": 23,
+  "college": "Gulbarga Institute Of Medical Sciences, Gulbarga",
+  "state": "Karnataka",
+  "close": 10554,
+  "url": "http://www.hkrdb.kar.nic.in",
+  "wiki_title": "Gulbarga Institute of Medical Sciences",
+  "http": 0,
+  "bytes": 0
+ },
+ {
+  "id": 25,
+  "college": "Government Medical College",
+  "state": "Tamil Nadu",
+  "close": 10875,
+  "url": "https://www.tmc.kerala.gov.in",
+  "wiki_title": "Government Medical College, Thiruvananthapuram",
+  "http": 200,
+  "bytes": 47109
+ },
+ {
+  "id": 35,
+  "college": "Andaman And Nicobar Islands Institute Of Medical S, Director Aniims",
+  "state": "Andaman & Nicobar",
+  "close": 12014,
+  "url": "http://andssw1.and.nic.in/ANIIMS",
+  "wiki_title": "Andaman and Nicobar Islands Institute of Medical Sciences",
+  "http": 503,
+  "bytes": 114
+ }
+]
