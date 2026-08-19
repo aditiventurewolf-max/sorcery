@@ -1,0 +1,1352 @@
+[
+ {
+  "college": "Gvmc, Villupuram",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 8176,
+  "open": 8037,
+  "seats": 2,
+  "tier": 1,
+  "id": 1
+ },
+ {
+  "college": "Government Medical College Suryapet",
+  "state": "Telangana",
+  "state_csv": "Telangana",
+  "close": 8209,
+  "open": 8209,
+  "seats": 1,
+  "tier": 1,
+  "id": 2
+ },
+ {
+  "college": "Govt. Dharamapuri Med Coll, Dharmapuri",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 8228,
+  "open": 8095,
+  "seats": 3,
+  "tier": 1,
+  "id": 3
+ },
+ {
+  "college": "Irt Perundurai Medical College, Perundurai",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 8374,
+  "open": 8304,
+  "seats": 2,
+  "tier": 1,
+  "id": 4
+ },
+ {
+  "college": "Sri Venkateswara Medical College, Tirupati",
+  "state": "Andhra Pradesh",
+  "state_csv": "Andhra Pradesh",
+  "close": 8815,
+  "open": 8552,
+  "seats": 2,
+  "tier": 1,
+  "id": 5
+ },
+ {
+  "college": "Indira Gandhi Medical College & Ri, Puducherry",
+  "state": "Puducherry",
+  "state_csv": "Puducherry",
+  "close": 8875,
+  "open": 8034,
+  "seats": 4,
+  "tier": 1,
+  "id": 6
+ },
+ {
+  "college": "Government Medical College, Tiruppur",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 8914,
+  "open": 8770,
+  "seats": 4,
+  "tier": 1,
+  "id": 7
+ },
+ {
+  "college": "Hassan Inst. Medical Sciences, Hassan",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 8923,
+  "open": 8078,
+  "seats": 6,
+  "tier": 1,
+  "id": 8
+ },
+ {
+  "college": "Kakatiya Medical College Warangal",
+  "state": "Telangana",
+  "state_csv": "Telangana",
+  "close": 8974,
+  "open": 8261,
+  "seats": 2,
+  "tier": 1,
+  "id": 9
+ },
+ {
+  "college": "Government Medical College, Nilgiris",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 9034,
+  "open": 8322,
+  "seats": 3,
+  "tier": 1,
+  "id": 10
+ },
+ {
+  "college": "Shimoga Inst. Of Medical Sci., Shimoga",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 9413,
+  "open": 8154,
+  "seats": 6,
+  "tier": 1,
+  "id": 11
+ },
+ {
+  "college": "Govt. Sivgangai M. C. Sivagangai",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 9427,
+  "open": 9427,
+  "seats": 1,
+  "tier": 1,
+  "id": 12
+ },
+ {
+  "college": "Govt. Medical College Karur",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 9450,
+  "open": 8269,
+  "seats": 6,
+  "tier": 1,
+  "id": 13
+ },
+ {
+  "college": "Siddartha Medical College, Vijayawada",
+  "state": "Andhra Pradesh",
+  "state_csv": "Andhra Pradesh",
+  "close": 9675,
+  "open": 8182,
+  "seats": 4,
+  "tier": 1,
+  "id": 14
+ },
+ {
+  "college": "Rims, Ongole",
+  "state": "Andhra Pradesh",
+  "state_csv": "Andhra Pradesh",
+  "close": 9708,
+  "open": 9708,
+  "seats": 1,
+  "tier": 1,
+  "id": 15
+ },
+ {
+  "college": "Thiruvannamalai Mc, Thiruvannamalai",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 9897,
+  "open": 8019,
+  "seats": 3,
+  "tier": 1,
+  "id": 16
+ },
+ {
+  "college": "Rajah Muthiah Medical College, Annamalai Universit",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 9926,
+  "open": 8406,
+  "seats": 4,
+  "tier": 1,
+  "id": 17
+ },
+ {
+  "college": "Government Medical College, Dindigul",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 9955,
+  "open": 9955,
+  "seats": 1,
+  "tier": 1,
+  "id": 18
+ },
+ {
+  "college": "Esic Medical College, Gulbarga",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 9966,
+  "open": 8526,
+  "seats": 5,
+  "tier": 1,
+  "id": 19
+ },
+ {
+  "college": "Government Medical College, Namakkal",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 10014,
+  "open": 8878,
+  "seats": 4,
+  "tier": 1,
+  "id": 20
+ },
+ {
+  "college": "Government Medical College, Quthbullapur",
+  "state": "Telangana",
+  "state_csv": "Telangana",
+  "close": 10381,
+  "open": 10381,
+  "seats": 1,
+  "tier": 1,
+  "id": 21
+ },
+ {
+  "college": "Gtmc, Thiruvarur",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 10400,
+  "open": 10000,
+  "seats": 4,
+  "tier": 1,
+  "id": 22
+ },
+ {
+  "college": "Gulbarga Institute Of Medical Sciences, Gulbarga",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 10554,
+  "open": 9253,
+  "seats": 4,
+  "tier": 1,
+  "id": 23
+ },
+ {
+  "college": "Government Medical College, Krishnagiri",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 10674,
+  "open": 8570,
+  "seats": 5,
+  "tier": 1,
+  "id": 24
+ },
+ {
+  "college": "Government Medical College",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 10875,
+  "open": 8403,
+  "seats": 4,
+  "tier": 1,
+  "id": 25
+ },
+ {
+  "college": "Vijaynagar Inst Of Med. Sc, Bellary",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 11026,
+  "open": 8077,
+  "seats": 6,
+  "tier": 1,
+  "id": 26
+ },
+ {
+  "college": "Govt. Pudukkottai Medical College Hopt., Pudukkott",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 11149,
+  "open": 10984,
+  "seats": 2,
+  "tier": 1,
+  "id": 27
+ },
+ {
+  "college": "Government Medical College, Nizamabad",
+  "state": "Telangana",
+  "state_csv": "Telangana",
+  "close": 11152,
+  "open": 11152,
+  "seats": 1,
+  "tier": 1,
+  "id": 28
+ },
+ {
+  "college": "Gadag Institute Of Medical Sciences, Gadag Institute Of Medical Sciences",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 11211,
+  "open": 11211,
+  "seats": 1,
+  "tier": 1,
+  "id": 29
+ },
+ {
+  "college": "Government Medical College, Ariyalur",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 11373,
+  "open": 10422,
+  "seats": 3,
+  "tier": 1,
+  "id": 30
+ },
+ {
+  "college": "Government Medical College, Ramanathapuram",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 11523,
+  "open": 11225,
+  "seats": 3,
+  "tier": 1,
+  "id": 31
+ },
+ {
+  "college": "Government Medical College, Ananthapuram",
+  "state": "Andhra Pradesh",
+  "state_csv": "Andhra Pradesh",
+  "close": 11786,
+  "open": 11786,
+  "seats": 1,
+  "tier": 1,
+  "id": 32
+ },
+ {
+  "college": "Bidar Institute Of Medical Sci., Bidar",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 11883,
+  "open": 10965,
+  "seats": 8,
+  "tier": 1,
+  "id": 33
+ },
+ {
+  "college": "Government Medical College, Kallakurichi",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 11990,
+  "open": 11541,
+  "seats": 4,
+  "tier": 1,
+  "id": 34
+ },
+ {
+  "college": "Andaman And Nicobar Islands Institute Of Medical S, Director Aniims",
+  "state": "Andaman & Nicobar",
+  "state_csv": "Andaman & Nicobar",
+  "close": 12014,
+  "open": 9246,
+  "seats": 4,
+  "tier": 1,
+  "id": 35
+ },
+ {
+  "college": "Kodagu Institute Of Medical Sciences, Kodagu",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 12096,
+  "open": 10060,
+  "seats": 7,
+  "tier": 1,
+  "id": 36
+ },
+ {
+  "college": "Government Medical College, Nagapattinam",
+  "state": "Tamil Nadu",
+  "state_csv": "Tamil Nadu",
+  "close": 12262,
+  "open": 11982,
+  "seats": 7,
+  "tier": 1,
+  "id": 37
+ },
+ {
+  "college": "Haveri Institute Of Medical Sciences, Karnataka",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 12288,
+  "open": 12288,
+  "seats": 1,
+  "tier": 1,
+  "id": 38
+ },
+ {
+  "college": "C. Institute Of Medical Sciences",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 12303,
+  "open": 11172,
+  "seats": 3,
+  "tier": 1,
+  "id": 39
+ },
+ {
+  "college": "Acsr Govt Medical College, Nellore",
+  "state": "Andhra Pradesh",
+  "state_csv": "Andhra Pradesh",
+  "close": 12352,
+  "open": 10649,
+  "seats": 6,
+  "tier": 1,
+  "id": 40
+ },
+ {
+  "college": "Chikkaballapura Institute Of Medical Sciences, Karnataka",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 12520,
+  "open": 12127,
+  "seats": 4,
+  "tier": 1,
+  "id": 41
+ },
+ {
+  "college": "Karwar Institute Of Medical Sciences, Karwar",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 12698,
+  "open": 12535,
+  "seats": 2,
+  "tier": 1,
+  "id": 42
+ },
+ {
+  "college": "Svims - Sri Padmavathi Medical College For Women, Tirupati",
+  "state": "Andhra Pradesh",
+  "state_csv": "Andhra Pradesh",
+  "close": 12719,
+  "open": 8213,
+  "seats": 8,
+  "tier": 1,
+  "id": 43
+ },
+ {
+  "college": "Rajiv Gandhi Institute Medical Sce Of Adilabad",
+  "state": "Telangana",
+  "state_csv": "Telangana",
+  "close": 12965,
+  "open": 11259,
+  "seats": 4,
+  "tier": 1,
+  "id": 44
+ },
+ {
+  "college": "Raichur Inst. Of Medical Sci., Raichur",
+  "state": "Karnataka",
+  "state_csv": "Karnataka",
+  "close": 12980,
+  "open": 10994,
+  "seats": 6,
+  "tier": 1,
+  "id": 45
+ },
+ {
+  "college": "Government Medical College, Nashik",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 8011,
+  "open": 8011,
+  "seats": 1,
+  "tier": 2,
+  "id": 46
+ },
+ {
+  "college": "Namo Medical Education & Research Institute, Govt Medical College Silvassa",
+  "state": "DNH & DD",
+  "state_csv": "DNH & DD",
+  "close": 8069,
+  "open": 8069,
+  "seats": 1,
+  "tier": 2,
+  "id": 47
+ },
+ {
+  "college": "Sagar Dutta Medical College & Hospital, Kolkata",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 8390,
+  "open": 8028,
+  "seats": 3,
+  "tier": 2,
+  "id": 48
+ },
+ {
+  "college": "Sri Jagannath Medical College & Hospital, Puri",
+  "state": "Odisha",
+  "state_csv": "Odisha",
+  "close": 8718,
+  "open": 8716,
+  "seats": 2,
+  "tier": 2,
+  "id": 49
+ },
+ {
+  "college": "Saheed Laxman Nayak Med. College And Hos., Koraput",
+  "state": "Odisha",
+  "state_csv": "Odisha",
+  "close": 9193,
+  "open": 9193,
+  "seats": 1,
+  "tier": 2,
+  "id": 50
+ },
+ {
+  "college": "Govt Medical College Baramati",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 9314,
+  "open": 9024,
+  "seats": 3,
+  "tier": 2,
+  "id": 51
+ },
+ {
+  "college": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad",
+  "state": "Jharkhand",
+  "state_csv": "Jharkhand",
+  "close": 9623,
+  "open": 8060,
+  "seats": 3,
+  "tier": 2,
+  "id": 52
+ },
+ {
+  "college": "Esic Pgimsr, Joka",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 9732,
+  "open": 8059,
+  "seats": 8,
+  "tier": 2,
+  "id": 53
+ },
+ {
+  "college": "Chhattisgarh Institute Of Medical Sciences, Bilasp",
+  "state": "Chhattisgarh",
+  "state_csv": "Chhattisgarh",
+  "close": 9779,
+  "open": 8830,
+  "seats": 8,
+  "tier": 2,
+  "id": 54
+ },
+ {
+  "college": "Mg Inst. Of Medical Sciences, Sevagram Wardha",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 9917,
+  "open": 8132,
+  "seats": 13,
+  "tier": 2,
+  "id": 55
+ },
+ {
+  "college": "Burdwan Medical College, Burdwan",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 10078,
+  "open": 8423,
+  "seats": 6,
+  "tier": 2,
+  "id": 56
+ },
+ {
+  "college": "Medinirai Medical College (Previously Known As Palamu Medical College)",
+  "state": "Jharkhand",
+  "state_csv": "Jharkhand",
+  "close": 10270,
+  "open": 10270,
+  "seats": 1,
+  "tier": 2,
+  "id": 57
+ },
+ {
+  "college": "Dr. Vaishampayam Memorial M.C., Sholapur",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 10285,
+  "open": 8286,
+  "seats": 10,
+  "tier": 2,
+  "id": 58
+ },
+ {
+  "college": "Gmers Medical College",
+  "state": "Gujarat",
+  "state_csv": "Gujarat",
+  "close": 10293,
+  "open": 10293,
+  "seats": 1,
+  "tier": 2,
+  "id": 59
+ },
+ {
+  "college": "Government Medical College, Miraj",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 10401,
+  "open": 9165,
+  "seats": 7,
+  "tier": 2,
+  "id": 60
+ },
+ {
+  "college": "North Bengal Med.Coll, Darjeeling",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 10533,
+  "open": 9157,
+  "seats": 6,
+  "tier": 2,
+  "id": 61
+ },
+ {
+  "college": "Gmers Medical College, Morbi",
+  "state": "Gujarat",
+  "state_csv": "Gujarat",
+  "close": 10609,
+  "open": 10609,
+  "seats": 1,
+  "tier": 2,
+  "id": 62
+ },
+ {
+  "college": "Neigrihms, Shillong",
+  "state": "Meghalaya",
+  "state_csv": "Meghalaya",
+  "close": 10679,
+  "open": 8337,
+  "seats": 6,
+  "tier": 2,
+  "id": 63
+ },
+ {
+  "college": "College Of Medicine And Jnm Hospital, Kalyani",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 10895,
+  "open": 8388,
+  "seats": 7,
+  "tier": 2,
+  "id": 64
+ },
+ {
+  "college": "Diamond Harbour Govt Medical College, New Town",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 10909,
+  "open": 10857,
+  "seats": 2,
+  "tier": 2,
+  "id": 65
+ },
+ {
+  "college": "Chandulal Chandrakar Memorial Government Medical College, Durg",
+  "state": "Chhattisgarh",
+  "state_csv": "Chhattisgarh",
+  "close": 10942,
+  "open": 10942,
+  "seats": 1,
+  "tier": 2,
+  "id": 66
+ },
+ {
+  "college": "Goverment Medical College Nandurbar Mahararastra",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 11157,
+  "open": 8378,
+  "seats": 2,
+  "tier": 2,
+  "id": 67
+ },
+ {
+  "college": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College Kolhapur, Rajarshee",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 11177,
+  "open": 8393,
+  "seats": 8,
+  "tier": 2,
+  "id": 68
+ },
+ {
+  "college": "Lt. B R K Government Medical College, Jagdalpur",
+  "state": "Chhattisgarh",
+  "state_csv": "Chhattisgarh",
+  "close": 11198,
+  "open": 11005,
+  "seats": 2,
+  "tier": 2,
+  "id": 69
+ },
+ {
+  "college": "Dr.S.C.Govt Medical College, Nanded",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 11240,
+  "open": 10573,
+  "seats": 4,
+  "tier": 2,
+  "id": 70
+ },
+ {
+  "college": "Sh Vasant Rao Naik Govt.M.C., Yavatmal",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 11519,
+  "open": 11352,
+  "seats": 2,
+  "tier": 2,
+  "id": 71
+ },
+ {
+  "college": "Assam Medical College, Dibrugarh",
+  "state": "Assam",
+  "state_csv": "Assam",
+  "close": 11571,
+  "open": 8173,
+  "seats": 9,
+  "tier": 2,
+  "id": 72
+ },
+ {
+  "college": "Government Of Medical College And Hospital, Balasore",
+  "state": "Odisha",
+  "state_csv": "Odisha",
+  "close": 11639,
+  "open": 9303,
+  "seats": 5,
+  "tier": 2,
+  "id": 73
+ },
+ {
+  "college": "Barasat Government Medical College & Hospital, West Bengal",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 11775,
+  "open": 9273,
+  "seats": 3,
+  "tier": 2,
+  "id": 74
+ },
+ {
+  "college": "Jorhat Medical College And Hospital, Jorhat",
+  "state": "Assam",
+  "state_csv": "Assam",
+  "close": 11815,
+  "open": 11815,
+  "seats": 1,
+  "tier": 2,
+  "id": 75
+ },
+ {
+  "college": "Bankura Sammilani Med Coll, Bankura",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 11895,
+  "open": 9857,
+  "seats": 11,
+  "tier": 2,
+  "id": 76
+ },
+ {
+  "college": "Govt. Medical College And Hospital, Chandrapur",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12027,
+  "open": 11601,
+  "seats": 3,
+  "tier": 2,
+  "id": 77
+ },
+ {
+  "college": "Sheikh Bhikhari Medical College & Hospital, Hazaribag ( Formerly Called",
+  "state": "Jharkhand",
+  "state_csv": "Jharkhand",
+  "close": 12056,
+  "open": 11790,
+  "seats": 3,
+  "tier": 2,
+  "id": 78
+ },
+ {
+  "college": "Lt. L A M Govt. Medical College, Raigarh",
+  "state": "Chhattisgarh",
+  "state_csv": "Chhattisgarh",
+  "close": 12091,
+  "open": 11606,
+  "seats": 2,
+  "tier": 2,
+  "id": 79
+ },
+ {
+  "college": "Government Medical College And District General Hospital, Ratnagiri",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12093,
+  "open": 12093,
+  "seats": 1,
+  "tier": 2,
+  "id": 80
+ },
+ {
+  "college": "Government Medical College And General Hospital",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12178,
+  "open": 10664,
+  "seats": 4,
+  "tier": 2,
+  "id": 81
+ },
+ {
+  "college": "Regional Inst Of Medical Sci, Imphal",
+  "state": "Manipur",
+  "state_csv": "Manipur",
+  "close": 12184,
+  "open": 10279,
+  "seats": 4,
+  "tier": 2,
+  "id": 82
+ },
+ {
+  "college": "Government Medical College, Latur",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12233,
+  "open": 11320,
+  "seats": 3,
+  "tier": 2,
+  "id": 83
+ },
+ {
+  "college": "Agartala Govt. Medical College, Agartala",
+  "state": "Tripura",
+  "state_csv": "Tripura",
+  "close": 12341,
+  "open": 12341,
+  "seats": 1,
+  "tier": 2,
+  "id": 84
+ },
+ {
+  "college": "Bhima Bhoi Medical College And Hospital, Balangir",
+  "state": "Odisha",
+  "state_csv": "Odisha",
+  "close": 12424,
+  "open": 11827,
+  "seats": 3,
+  "tier": 2,
+  "id": 85
+ },
+ {
+  "college": "Pt. Raghunath Murmu Med. College, Baripada",
+  "state": "Odisha",
+  "state_csv": "Odisha",
+  "close": 12463,
+  "open": 10560,
+  "seats": 4,
+  "tier": 2,
+  "id": 86
+ },
+ {
+  "college": "Government Medical College, Bhandara",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12648,
+  "open": 12648,
+  "seats": 1,
+  "tier": 2,
+  "id": 87
+ },
+ {
+  "college": "Midnapore Medical College, Midnapur",
+  "state": "West Bengal",
+  "state_csv": "West Bengal",
+  "close": 12676,
+  "open": 11446,
+  "seats": 4,
+  "tier": 2,
+  "id": 88
+ },
+ {
+  "college": "Shri Bhausaheb Hire Govt. M.C., Dhule",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12677,
+  "open": 10446,
+  "seats": 8,
+  "tier": 2,
+  "id": 89
+ },
+ {
+  "college": "Swami Ramanand Tirth Rural M.C, Ambajogai",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12681,
+  "open": 12009,
+  "seats": 2,
+  "tier": 2,
+  "id": 90
+ },
+ {
+  "college": "Tezpur Medical College, Tezpur",
+  "state": "Assam",
+  "state_csv": "Assam",
+  "close": 12773,
+  "open": 12773,
+  "seats": 1,
+  "tier": 2,
+  "id": 91
+ },
+ {
+  "college": "Government Medical College, Kanker",
+  "state": "Chhattisgarh",
+  "state_csv": "Chhattisgarh",
+  "close": 12797,
+  "open": 12797,
+  "seats": 1,
+  "tier": 2,
+  "id": 92
+ },
+ {
+  "college": "Government Medical College, Akola",
+  "state": "Maharashtra",
+  "state_csv": "Maharashtra",
+  "close": 12815,
+  "open": 8637,
+  "seats": 7,
+  "tier": 2,
+  "id": 93
+ },
+ {
+  "college": "Pt. Jawahar Lal Nehru Govt. Med. College, Chamba",
+  "state": "Himachal Pradesh",
+  "state_csv": "Himachal Pradesh",
+  "close": 8222,
+  "open": 8222,
+  "seats": 1,
+  "tier": 3,
+  "id": 94
+ },
+ {
+  "college": "S.S. Medical College, Rewa",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 8400,
+  "open": 8325,
+  "seats": 2,
+  "tier": 3,
+  "id": 95
+ },
+ {
+  "college": "Govt Medical College",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 8491,
+  "open": 8491,
+  "seats": 1,
+  "tier": 3,
+  "id": 96
+ },
+ {
+  "college": "Govt Medical College Barmer Rajasthan",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 8652,
+  "open": 8141,
+  "seats": 3,
+  "tier": 3,
+  "id": 97
+ },
+ {
+  "college": "Jawaharlal Nehru Medical College, Bhagalpur",
+  "state": "Bihar",
+  "state_csv": "Bihar",
+  "close": 8746,
+  "open": 8746,
+  "seats": 1,
+  "tier": 3,
+  "id": 98
+ },
+ {
+  "college": "Atal Bihari Vajpayee Government Medical College, Vidisha",
+  "state": "Madhya Pradesh",
+  "state_csv": "Bihar",
+  "close": 8827,
+  "open": 8658,
+  "seats": 4,
+  "tier": 3,
+  "id": 99
+ },
+ {
+  "college": "Government Medical College, Jhunjhunu",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 8943,
+  "open": 8943,
+  "seats": 1,
+  "tier": 3,
+  "id": 100
+ },
+ {
+  "college": "Government Medical College Chittorgarh, Government Medical College Chittorgarh",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 9008,
+  "open": 8523,
+  "seats": 3,
+  "tier": 3,
+  "id": 101
+ },
+ {
+  "college": "Gmc Dausa Rajasthan, Gmc Dausa Mitrapura Bhandarej Mod Dausa",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 9156,
+  "open": 9156,
+  "seats": 1,
+  "tier": 3,
+  "id": 102
+ },
+ {
+  "college": "Shkm Gmc, Nalhar",
+  "state": "Haryana",
+  "state_csv": "Haryana",
+  "close": 9616,
+  "open": 9300,
+  "seats": 2,
+  "tier": 3,
+  "id": 103
+ },
+ {
+  "college": "Government Medical College, Haridwar",
+  "state": "Uttarakhand",
+  "state_csv": "Uttarakhand",
+  "close": 9655,
+  "open": 8556,
+  "seats": 4,
+  "tier": 3,
+  "id": 104
+ },
+ {
+  "college": "Bundelkhand Medical College, Sagar",
+  "state": "Madhya Pradesh",
+  "state_csv": "",
+  "close": 9704,
+  "open": 9123,
+  "seats": 4,
+  "tier": 3,
+  "id": 105
+ },
+ {
+  "college": "Govt Medical College, Dungarpur",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 9960,
+  "open": 8424,
+  "seats": 6,
+  "tier": 3,
+  "id": 106
+ },
+ {
+  "college": "Veer Chandra Singh Garhwali Govt. Institute Of Medical Science &",
+  "state": "Uttarakhand",
+  "state_csv": "Uttarakhand",
+  "close": 9965,
+  "open": 8529,
+  "seats": 6,
+  "tier": 3,
+  "id": 107
+ },
+ {
+  "college": "Sri Krishna Medical College, Muzaffarpur",
+  "state": "Bihar",
+  "state_csv": "Bihar",
+  "close": 10119,
+  "open": 8075,
+  "seats": 5,
+  "tier": 3,
+  "id": 108
+ },
+ {
+  "college": "Govt Medical College Ratlam, Gram Banjali",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 10378,
+  "open": 8575,
+  "seats": 8,
+  "tier": 3,
+  "id": 109
+ },
+ {
+  "college": "Govt. Medical College, Sirohi (Rajasthan)",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 10476,
+  "open": 9352,
+  "seats": 4,
+  "tier": 3,
+  "id": 110
+ },
+ {
+  "college": "Government Medical College, Bundi",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 10692,
+  "open": 10660,
+  "seats": 2,
+  "tier": 3,
+  "id": 111
+ },
+ {
+  "college": "Government Medical College, Hanumangarh",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 10750,
+  "open": 8669,
+  "seats": 4,
+  "tier": 3,
+  "id": 112
+ },
+ {
+  "college": "Government Medical College, Dholpur",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 10856,
+  "open": 10133,
+  "seats": 4,
+  "tier": 3,
+  "id": 113
+ },
+ {
+  "college": "Anugrah Narayan Magadh Medical College, Gaya",
+  "state": "Bihar",
+  "state_csv": "Bihar",
+  "close": 10932,
+  "open": 8595,
+  "seats": 4,
+  "tier": 3,
+  "id": 114
+ },
+ {
+  "college": "Gmc Karauli",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 11290,
+  "open": 10509,
+  "seats": 3,
+  "tier": 3,
+  "id": 115
+ },
+ {
+  "college": "Govt Medical College Shivpuri, Near Katha Mill",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 11464,
+  "open": 10849,
+  "seats": 5,
+  "tier": 3,
+  "id": 116
+ },
+ {
+  "college": "Govt Medical College Badaun",
+  "state": "Uttar Pradesh",
+  "state_csv": "",
+  "close": 11575,
+  "open": 10435,
+  "seats": 6,
+  "tier": 3,
+  "id": 117
+ },
+ {
+  "college": "Govt. Medical College, Udhampur",
+  "state": "Jammu And Kashmir",
+  "state_csv": "Jammu And Kashmir",
+  "close": 11579,
+  "open": 8742,
+  "seats": 2,
+  "tier": 3,
+  "id": 118
+ },
+ {
+  "college": "Government Medical College Purnea",
+  "state": "Bihar",
+  "state_csv": "Bihar",
+  "close": 11672,
+  "open": 11672,
+  "seats": 1,
+  "tier": 3,
+  "id": 119
+ },
+ {
+  "college": "Government Medical College, Sawai Madhopur",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 11726,
+  "open": 8420,
+  "seats": 3,
+  "tier": 3,
+  "id": 120
+ },
+ {
+  "college": "Government Medical College, Banswara",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 11845,
+  "open": 11086,
+  "seats": 3,
+  "tier": 3,
+  "id": 121
+ },
+ {
+  "college": "Soban Singh Jeena Government Institute Of Medical Science &",
+  "state": "Uttarakhand",
+  "state_csv": "Uttarakhand",
+  "close": 11917,
+  "open": 10713,
+  "seats": 6,
+  "tier": 3,
+  "id": 122
+ },
+ {
+  "college": "Government Medical College, Kathua",
+  "state": "Jammu And Kashmir",
+  "state_csv": "Jammu And Kashmir",
+  "close": 11929,
+  "open": 9409,
+  "seats": 4,
+  "tier": 3,
+  "id": 123
+ },
+ {
+  "college": "Govt. Medical College, Khandwa",
+  "state": "Madhya Pradesh",
+  "state_csv": "",
+  "close": 11960,
+  "open": 10247,
+  "seats": 6,
+  "tier": 3,
+  "id": 124
+ },
+ {
+  "college": "Government Medical College, Anantnag J&K",
+  "state": "Jammu And Kashmir",
+  "state_csv": "Jammu And Kashmir",
+  "close": 12163,
+  "open": 9939,
+  "seats": 3,
+  "tier": 3,
+  "id": 125
+ },
+ {
+  "college": "Government Medical College, Baran",
+  "state": "Rajasthan",
+  "state_csv": "Rajasthan",
+  "close": 12166,
+  "open": 11715,
+  "seats": 5,
+  "tier": 3,
+  "id": 126
+ },
+ {
+  "college": "Government Medical College, Baramulla",
+  "state": "Jammu And Kashmir",
+  "state_csv": "Jammu And Kashmir",
+  "close": 12313,
+  "open": 12135,
+  "seats": 2,
+  "tier": 3,
+  "id": 127
+ },
+ {
+  "college": "Goverment Medical College, Bettiah",
+  "state": "Bihar",
+  "state_csv": "Bihar",
+  "close": 12354,
+  "open": 12083,
+  "seats": 3,
+  "tier": 3,
+  "id": 128
+ },
+ {
+  "college": "Virendra Kumar Sakhlecha Government Medical College, Neemuch",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 12370,
+  "open": 12370,
+  "seats": 1,
+  "tier": 3,
+  "id": 129
+ },
+ {
+  "college": "Government Medical College Satna",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 12744,
+  "open": 11134,
+  "seats": 3,
+  "tier": 3,
+  "id": 130
+ },
+ {
+  "college": "Government Medical College, Anantnag",
+  "state": "Jammu And Kashmir",
+  "state_csv": "Jammu And Kashmir",
+  "close": 12749,
+  "open": 10864,
+  "seats": 2,
+  "tier": 3,
+  "id": 131
+ },
+ {
+  "college": "Government Medical College, Seoni",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 12759,
+  "open": 8098,
+  "seats": 3,
+  "tier": 3,
+  "id": 132
+ },
+ {
+  "college": "Government Medical College, Doda",
+  "state": "Jammu And Kashmir",
+  "state_csv": "Jammu And Kashmir",
+  "close": 12808,
+  "open": 9646,
+  "seats": 2,
+  "tier": 3,
+  "id": 133
+ },
+ {
+  "college": "Chhindwara Institute Of Medical Sciences, Teachers Colony",
+  "state": "Madhya Pradesh",
+  "state_csv": "Madhya Pradesh",
+  "close": 12859,
+  "open": 9728,
+  "seats": 3,
+  "tier": 3,
+  "id": 134
+ },
+ {
+  "college": "Goverment Medical College, Datia",
+  "state": "Madhya Pradesh",
+  "state_csv": "",
+  "close": 12938,
+  "open": 11036,
+  "seats": 5,
+  "tier": 3,
+  "id": 135
+ }
+]
