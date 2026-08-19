@@ -50,9 +50,8 @@ for r in wl:
             'official_url': '', 'disclosure_found': 'N/A', 'disclosure_url': '',
             'scribd_found': 'N', 'scribd_url': '', 'verdict': 'PROVISIONAL',
             'sessions_exposed': '', 'checked_date': '2026-08-19',
-            'notes': 'Not positively determined in this run - see coverage limits in README. '
-                     'Multi-college third-party (Scribd/DocsLib/Studocu/Slideshare) sweep for '
-                     'this state returned no name-bearing roster attributable to this college.',
+            'notes': 'Undetermined: no official domain resolved from this egress. '
+                     'Third-party re-host sweep for this state was clean. See README limits.',
             '_tier': r['tier'],
         })
 
