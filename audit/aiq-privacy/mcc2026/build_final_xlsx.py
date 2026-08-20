@@ -34,9 +34,16 @@ for i,(n,w,col) in enumerate(rows, start=8):
     ws[f'B{i}'].number_format = '0%'
 ws['A14'] = 'TOTAL'; ws['A14'].font = BOLD
 ws['B14'] = '=SUM(B8:B13)'; ws['B14'].font = BOLD; ws['B14'].number_format = '0%'
-ws['A16'] = 'NOTE: km and travel times are my estimates from public sources — verify before booking.'
-ws['A17'] = 'NOTE: bond and PG-quota rules are revised annually. Confirm in the current counselling brochure.'
-ws['A18'] = 'NOTE: fees are state tuition estimates per year, excluding hostel/mess/caution deposits.'
+ws['A16'] = 'Alternative: connectivity-first weighting (copy these into B8:B13 to switch)'
+ws['A16'].font = BOLD
+alt = [('Info exposure', 0.30), ('Website staleness', 0.10), ('Connectivity', 0.30),
+       ('Distance from Lucknow', 0.10), ('Fees', 0.10), ('Hindi spoken', 0.10)]
+for i,(n,w) in enumerate(alt, start=17):
+    ws[f'A{i}'] = '   ' + n; ws[f'B{i}'] = w; ws[f'B{i}'].number_format = '0%'
+ws['A23'] = 'Under connectivity-first: Dhanbad stays #1 (4.00), Bhandara rises to #2 (3.80), Akola drops from #2 to #5.'
+ws['A25'] = 'NOTE: km and travel times are my estimates from public sources — verify before booking.'
+ws['A26'] = 'NOTE: bond and PG-quota rules are revised annually. Confirm in the current counselling brochure.'
+ws['A27'] = 'NOTE: fees are state tuition estimates per year, excluding hostel/mess/caution deposits.'
 ws.column_dimensions['A'].width = 52; ws.column_dimensions['B'].width = 12; ws.column_dimensions['C'].width = 26
 
 # ---------------------------------------------------------------- Shortlist
