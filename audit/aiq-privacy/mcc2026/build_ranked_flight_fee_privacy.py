@@ -79,6 +79,89 @@ FEE={'karur':(6000,'College doc: karurgmc.ac.in AIQ_FEES.pdf - AIQ-specific'),
  'nashik':(152100,'Own brochure (2025-26 figure)'),
  'jalgaon':(167300,'Maharashtra state figure'),
 }
+
+# ---- proper display names + city extraction + nearest airport
+_BAD=re.compile(r'college|hospital|institute|road|marg|nagar|dist|\bpo\b|pin|near|opposite|campus|'
+                r'complex|block|sciences|research|govt|government|medical|centre|center|building|'
+                r'plot|phase|sector|village|taluk|tehsil|dept|www|@|\d{4,}',re.I)
+CITYFIX={'esi co orporation':'Ludhiana','gradi gate':'Bhavnagar','saifai etawah':'Etawah',
+ 'skims mc bemina':'Srinagar','dhanbad)':'Dhanbad','beltola':'Guwahati','joka':'Kolkata',
+ 'lehriasarai':'Darbhanga','panaji':'Panaji Goa','bambolim':'Panaji Goa','nanda nagar':'Indore',
+ 'arrah da':'Patna','kamarhati':'Kolkata','pudukottai':'Pudukkottai','burdwan':'Bardhaman (Burdwan)'}
+def cityof(full):
+    parts=[p.strip() for p in full.split(',')]
+    cand=''
+    for p in parts[1:]:
+        if p and len(p.split())<=3 and not _BAD.search(p): cand=p; break
+    if not cand:
+        for p in parts[1:]:
+            if p and len(p.split())<=4: cand=p; break
+    c=CITYFIX.get(cand.lower().strip(), cand)
+    return re.sub(r'\s+',' ',c).strip(' ,-()')
+def propername(full):
+    parts=[p.strip() for p in full.split(',')]
+    nm=parts[0]
+    ct=cityof(full)
+    if ct and ct.lower() not in nm.lower():
+        nm=f'{nm}, {ct}'
+    return re.sub(r'\s+',' ',nm).strip(' ,')
+# city -> (airport, IATA, km from campus, note).  ESTIMATES from public geography - verify.
+AIR={
+'indore':('Devi Ahilya Bai Holkar','IDR',10,'In city; LKO direct'),
+'raipur':('Swami Vivekananda','RPR',15,'In city; LKO direct'),
+'kolkata':('Netaji Subhash Chandra Bose','CCU',16,'RG Kar ~16 km, Sagar Dutta ~15 km, Joka ~35 km; LKO direct'),
+'patna':('Jay Prakash Narayan','PAT',10,'In city; LKO direct'),
+'bardhaman (burdwan)':('Kolkata CCU','CCU',105,'2.5-3 hr road; LKO direct to Kolkata only'),
+'guwahati':('Lokpriya Gopinath Bordoloi','GAU',25,'LKO direct'),
+'panaji goa':('Dabolim / Mopa','GOI / GOX',30,'Dabolim ~30 km, Mopa ~35 km; LKO direct'),
+'kalyani':('Kolkata CCU','CCU',60,'~1.5 hr road; LKO direct to Kolkata'),
+'baramati':('Pune','PNQ',100,'~2.5 hr road; LKO direct to Pune'),
+'karur':('Tiruchirappalli','TRZ',80,'Coimbatore CJB ~130 km alt; no LKO direct'),
+'namakkal':('Salem','SXV',55,'Trichy TRZ ~95 km alt; no LKO direct'),
+'shillong':('Guwahati GAU','GAU',120,'Shillong SHL ~30 km but very limited; LKO direct to Guwahati'),
+'dhanbad':('Durgapur / Ranchi','RDP / IXR',90,'Durgapur ~90 km, Ranchi ~140 km; strong direct rail from LKO'),
+'mandya':('Mysuru / Bengaluru','MYQ / BLR',45,'Mysuru ~45 km limited, Bengaluru ~130 km; no LKO direct'),
+'rewa':('Rewa (new) / Prayagraj','REW / IXD',15,'Rewa airport new and limited; Prayagraj ~230 km'),
+'jabalpur':('Dumna','JLR',20,'~64 flights/wk; NO LKO direct - one stop'),
+'ludhiana':('Sahnewal / Chandigarh','LUH / IXC',10,'Sahnewal very limited; Chandigarh ~100 km, LKO direct'),
+'varanasi':('Lal Bahadur Shastri','VNS',25,'In city; ~320 km by road from Lucknow'),
+'hassan':('Mangaluru / Bengaluru','IXE / BLR',170,'Both far; no practical day trip'),
+'gulbarga':('Kalaburagi / Hyderabad','GBI / HYD',15,'Kalaburagi limited; Hyderabad ~220 km'),
+'idukki':('Cochin','COK',110,'Madurai IXM ~140 km alt'),
+'dharmapuri':('Salem / Hosur','SXV',65,'Hosur ~90 km alt'),
+'pali':('Jodhpur','JDH',75,'No LKO direct'),
+'pudukkottai':('Tiruchirappalli','TRZ',55,'No LKO direct'),
+'bhilwara':('Udaipur','UDR',160,'Jaipur ~250 km alt'),
+'bhavnagar':('Bhavnagar','BHU',10,'In city; no LKO direct'),
+'jammu':('Jammu','IXJ',5,'In city'),
+'etawah':('Kanpur / Lucknow','KNU / LKO',130,'Drivable from Lucknow ~230 km - no flight needed'),
+'churu':('Jaipur / Bikaner','JAI / BKB',180,'Both far'),
+'srinagar':('Sheikh ul-Alam','SXR',12,'In city'),
+'nagaur':('Jodhpur','JDH',135,'No LKO direct'),
+'faridkot':('Bathinda / Amritsar','BUP / ATQ',60,'Chandigarh ~200 km alt'),
+'bharatpur':('Agra / Delhi','AGR / DEL',55,'Delhi ~185 km, LKO direct to Delhi'),
+'konni':('Trivandrum','TRV',100,'Cochin ~130 km alt'),
+'darbhanga':('Darbhanga','DBR',10,'In city; Patna ~140 km alt'),
+'jamshedpur':('Sonari / Ranchi','IXW / IXR',5,'Sonari very limited; Ranchi ~130 km'),
+'sonepat':('Delhi','DEL',50,'LKO direct to Delhi'),
+'theni':('Madurai','IXM',80,'No LKO direct'),
+'bhopal':('Raja Bhoj','BHO',15,'In city; LKO direct'),
+'jaipur':('Jaipur','JAI',12,'In city; LKO direct'),
+'chennai':('Chennai','MAA',15,'In city; LKO direct'),
+'delhi':('Indira Gandhi','DEL',15,'In city; LKO direct - most frequent route'),
+}
+def airportof(full):
+    fl=full.lower()
+    # campus-specific overrides inside one metro
+    if 'joka' in fl: return ('Netaji Subhash Chandra Bose','CCU',35,'Joka, South Kolkata ~1 hr; LKO direct')
+    if 'kamarhati' in fl or 'sagore dutta' in fl: return ('Netaji Subhash Chandra Bose','CCU',15,'Kamarhati ~40 min; LKO direct')
+    if 'rg kar' in fl: return ('Netaji Subhash Chandra Bose','CCU',16,'Shyambazar ~40 min; LKO direct')
+    c=cityof(full).lower()
+    if c in AIR: return AIR[c]
+    for k,v in AIR.items():
+        if k in c or c in k: return v
+    return None
+
 STOP={'government','govt','goverment','medical','college','hospital','institute','of','and','the',
  'sciences','science','dr','memorial','research','centre','center','general','district','state'}
 def band(c): return 7000<=c<=13000
@@ -118,7 +201,8 @@ for c,o,s,inst in rows:
     fe=None
     for k,v in FEE.items():
         if k in low: fe=v; break
-    out.append({'close':c,'open':o,'seats':s,'name':inst.split(',')[0][:70],'full':inst,
+    out.append({'close':c,'open':o,'seats':s,'name':propername(inst),'city':cityof(inst),
+                'air':airportof(inst),'full':inst,
                 'direct':d,'priv':pv,'fee':fe})
 # rank: P1 direct flight, P2 fee<35k, P3 privacy
 def p1(r): return 0 if r['direct'] else 1
@@ -186,6 +270,7 @@ COLS=[('Rank',6),('College',44),('2026 R1 close',11),('Open',9),('R1 Gen seats',
       ('P1: Direct LKO flight?',13),('Airport',20),('Airport to campus',18),('Flight note',30),
       ('P2: Fee under Rs 35,000?',13),('Confirmed fee Rs/yr',12),('Fee basis',40),
       ('P3: Privacy verdict',24),('Newest list found',12),('Privacy detail - what was actually found',96),
+      ('City',20),('Nearest airport',30),('IATA',12),('Km airport to campus',13),('Airport note',40),
       ('State',16),('2025 R1 close',11),('Academic calendar?',13),('Evidence URL',46),('Site',26)]
 for j,(h,w) in enumerate(COLS,1):
     c=ws.cell(1,j,h); c.font=HDR; c.fill=HFIL
@@ -202,18 +287,21 @@ for i,o in enumerate(data,1):
           fyes, (fe[0] if fe else ''), (fe[1] if fe else 'NOT CONFIRMED - no fee document reachable'),
           (pv[0] if pv else 'Not audited'), (pv[1] if pv else ''),
           (pv[2] if pv else 'Not audited - site unreachable from this environment, or never in the worklist'),
+          o['city'], (o['air'][0] if o['air'] else 'not resolved'),
+          (o['air'][1] if o['air'] else ''), (o['air'][2] if o['air'] else ''),
+          (o['air'][3] if o['air'] else ''),
           (o['prior'] or {}).get('state',''), (o['prior'] or {}).get('c25',''),
           (o['prior'] or {}).get('cal',''), (o['prior'] or {}).get('ev',''), (o['prior'] or {}).get('site','')]
     for j,v in enumerate(vals,1):
         c=ws.cell(r,j,v); c.border=TH
-        c.alignment=WRAP if j in (9,12,15,19) else CEN
+        c.alignment=WRAP if j in (9,12,15,20) else CEN
     ws.cell(r,6).fill = G if d else GR
     ws.cell(r,10).fill = G if fyes=='YES' else (GR if fyes=='UNKNOWN' else R)
     pvv=(pv[0] if pv else '')
     ws.cell(r,13).fill = G if pvv.startswith('CLEAN') else (Y if (pvv.startswith(('Clean','UNVERIFIED','Unverified','Unresolved')) or 'stale' in pvv or 'hidden' in pvv) else (R if pvv else GR))
     ws.cell(r,11).number_format='#,##0'
     r+=1
-ws.auto_filter.ref=f'A1:T{r-1}'; ws.freeze_panes='C2'
+ws.auto_filter.ref=f'A1:Y{r-1}'; ws.freeze_panes='C2'
 
 ns=wb.create_sheet('How this is ranked')
 N=[('Priority 1 - Connectivity','Direct non-stop flight from Lucknow (LKO). Confirmed direct destinations as of Aug 2026: '
@@ -246,6 +334,11 @@ for j,(h,w) in enumerate([('Topic',28),('Detail',150)],1):
     c=ns.cell(1,j,h); c.font=HDR; c.fill=HFIL; ns.column_dimensions[get_column_letter(j)].width=w
 for i,(a,b) in enumerate(N,2):
     ns.cell(i,1,a).alignment=WRAP; ns.cell(i,2,b).alignment=WRAP
+
+# colour the km column for the top 40
+for rr in range(2, min(42, r)):
+    km=ws.cell(rr,19).value
+    if isinstance(km,int): ws.cell(rr,19).fill = G if km<=35 else (Y if km<=100 else R)
 wb.save('AIQ_ranked_flight_fee_privacy.xlsx')
 print('saved. top 12:')
 for i,o in enumerate(data[:12],1):
