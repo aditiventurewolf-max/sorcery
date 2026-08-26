@@ -24,8 +24,8 @@
 -- The export only carried `rental_location_id` as a bare integer, so this is
 -- the one table name I could not derive. Replace <<LOCATIONS_TABLE>> with
 -- whatever that FK points at. It needs an id column and a hub-name column.
+--
 --   Used 3x - Query A (line 59), Query B (line 120), Query C (line 185).
---   Used 3x - Query A (line ~70), Query B (~131), Query C (~192).
 --
 -- If its hub-name column is NOT called `name`, also change `rl.name`
 -- (3 places: the SELECT in Query A, in Query B's real_sales CTE, and Query C).
