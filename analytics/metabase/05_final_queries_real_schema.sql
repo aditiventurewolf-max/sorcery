@@ -1,5 +1,5 @@
 -- ============================================================================
--- FINAL QUERIES · written against the ACTUAL shop_orders schema
+-- FINAL QUERIES · written against the ACTUAL shop-orders schema
 -- ----------------------------------------------------------------------------
 -- Supersedes 04_standalone_paste_ready.sql, which guessed at column names.
 -- Confirmed from the query result export (320 rows, 26 Aug 2026):
@@ -17,6 +17,35 @@
 --   installed_by   staff id, only populated on installed rows
 -- ============================================================================
 
+
+-- ============================================================================
+-- >>> FILL THESE IN FIRST  ·  5 placeholders, find-and-replace across the file
+-- ----------------------------------------------------------------------------
+--   <<ORDERS_TABLE>>      the accessory / hub-desk order table. Has: id, status,
+--                         product_id, rental_location_id, price, phone, paid_at,
+--                         picked_up_at, placed_at, installed_by.
+--                         Used 3x - Query A, Query B, Query C.
+--
+--   <<LOCATIONS_TABLE>>   whatever rental_location_id points at. Needs an id and
+--                         a hub-name column. If the name column is not `name`,
+--                         also change `rl.name` (5 places).
+--                         Used 3x - Query A, Query B, Query C.
+--
+--   <<PRODUCTS_TABLE>>    whatever product_id points at. Needs id + name. If the
+--                         name column is not `name`, also change `p.name`.
+--                         Used 3x - Query A, Query B, Query C.
+--
+--   <<JOB_CARDS_TABLE>>   the legacy DMS mobile-stand job cards. Needs hub_name,
+--                         jc_created_at, billed, dms_jc_id.
+--                         Used 2x - Query A, Query B.
+--
+--   <<STOCK_TABLE>>       hub-wise stock. Needs hub, product, current_stock,
+--                         units_sold.
+--                         Used 1x - Query B only.
+--
+-- Nothing else needs editing to run. Column names below are already confirmed
+-- against the 26 Aug export; only these 5 table names are unknown.
+-- ============================================================================
 
 -- ---------------------------------------------------------------------------
 -- QUERY A · SALES  — city x hub x accessory, legacy job cards folded in
@@ -39,9 +68,9 @@ sales AS (
         'App Order'                 AS sale_source,
         o.price                     AS revenue,
         o.status = 'installed'      AS is_installed
-    FROM shop_orders o                                   -- <<< your table
-    JOIN rental_locations rl ON rl.id = o.rental_location_id
-    JOIN products         p  ON p.id  = o.product_id
+    FROM <<ORDERS_TABLE>> o
+    JOIN <<LOCATIONS_TABLE>> rl ON rl.id = o.rental_location_id
+    JOIN <<PRODUCTS_TABLE>> p ON p.id  = o.product_id
     WHERE o.status IN ('paid','installed')
       AND o.product_id <> 1          -- drop the ₹1 test SKU
 
@@ -56,7 +85,7 @@ sales AS (
         'Job Card (legacy)'         AS sale_source,
         199                         AS revenue,
         TRUE                        AS is_installed
-    FROM job_cards j                                     -- <<< your table
+    FROM <<JOB_CARDS_TABLE>> j
     WHERE j.billed = 'Yes'
       AND j.dms_jc_id IS NOT NULL
       AND j.jc_created_at < DATE '2026-08-19'   -- cutover, prevents double-count
@@ -83,8 +112,8 @@ ORDER BY hc.city, total_sales DESC;
 
 -- ---------------------------------------------------------------------------
 -- QUERY B · INVENTORY — city x hub x accessory, days of cover
--- Recomputes units_sold from paid orders instead of trusting hub_stock,
--- because hub_stock.units_sold counts abandoned carts (see notes at bottom).
+-- Recomputes units_sold from paid orders instead of trusting the stock table,
+-- because STOCK_TABLE.units_sold counts abandoned carts (see notes at bottom).
 -- ---------------------------------------------------------------------------
 WITH hub_city AS (
     SELECT * FROM (VALUES
@@ -100,15 +129,15 @@ real_sales AS (
            COUNT(*)                                                AS units_sold,
            COUNT(*) FILTER (WHERE o.status = 'paid')               AS awaiting_install,
            COUNT(*) FILTER (WHERE o.paid_at >= CURRENT_DATE - 30)  AS units_30d
-    FROM shop_orders o
-    JOIN rental_locations rl ON rl.id = o.rental_location_id
-    JOIN products         p  ON p.id  = o.product_id
+    FROM <<ORDERS_TABLE>> o
+    JOIN <<LOCATIONS_TABLE>> rl ON rl.id = o.rental_location_id
+    JOIN <<PRODUCTS_TABLE>> p ON p.id  = o.product_id
     WHERE o.status IN ('paid','installed') AND o.product_id <> 1
     GROUP BY 1, 2
 ),
 legacy AS (
     SELECT hub_name, COUNT(*) AS units
-    FROM job_cards
+    FROM <<JOB_CARDS_TABLE>>
     WHERE billed = 'Yes' AND jc_created_at < DATE '2026-08-19'
     GROUP BY 1
 )
@@ -141,7 +170,7 @@ SELECT
               / NULLIF(rs.units_30d/30.0, 0) > 90                   THEN 'Overstocked - redistribute'
          ELSE 'OK'
     END                                                     AS action
-FROM hub_stock st
+FROM <<STOCK_TABLE>> st
 LEFT JOIN hub_city   hc ON hc.hub_name = st.hub
 LEFT JOIN real_sales rs ON rs.hub_name = st.hub AND rs.accessory = st.product
 LEFT JOIN legacy     lg ON lg.hub_name = st.hub
@@ -165,9 +194,9 @@ SELECT
     SUM(o.price) FILTER (WHERE o.status = 'pending_payment')      AS revenue_lost,
     ROUND(AVG(EXTRACT(EPOCH FROM (o.picked_up_at - o.paid_at))/3600.0)
           ) FILTER (WHERE o.status = 'installed')                AS avg_hours_pay_to_install
-FROM shop_orders o
-JOIN rental_locations rl ON rl.id = o.rental_location_id
-JOIN products         p  ON p.id  = o.product_id
+FROM <<ORDERS_TABLE>> o
+JOIN <<LOCATIONS_TABLE>> rl ON rl.id = o.rental_location_id
+JOIN <<PRODUCTS_TABLE>> p ON p.id  = o.product_id
 LEFT JOIN hub_city    hc ON hc.hub_name = rl.name
 WHERE o.product_id <> 1
   AND {{city_filter}} AND {{hub_filter}} AND {{accessory_filter}}
