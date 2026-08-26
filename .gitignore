@@ -7,3 +7,5 @@ client/node_modules/
 dist/
 client/dist/
 .DS_Store
+connectors/whatsapp-mcp/session/
+connectors/*/node_modules/
