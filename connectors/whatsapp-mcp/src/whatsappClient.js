@@ -1,7 +1,24 @@
 import pkg from 'whatsapp-web.js';
 import QRCode from 'qrcode';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const { Client, LocalAuth } = pkg;
+
+// Chromium refuses to start if it finds a SingletonLock in its profile dir,
+// assuming another process already owns it. On a platform that persists the
+// profile on a volume but kills the container without a clean shutdown
+// (redeploys, OOM, restarts), a stale lock from the previous run is left
+// behind and every future launch fails with "profile appears to be in use
+// by another Chromium process ... on another computer". Since this service
+// only ever runs one instance (no other process can legitimately hold the
+// lock), it's safe to clear these before each launch.
+function clearStaleChromiumLock(dataPath, clientId) {
+  const sessionDir = path.join(path.resolve(dataPath), clientId ? `session-${clientId}` : 'session');
+  for (const name of ['SingletonLock', 'SingletonCookie', 'SingletonSocket']) {
+    fs.rmSync(path.join(sessionDir, name), { force: true });
+  }
+}
 
 /**
  * Wraps whatsapp-web.js (an unofficial client that drives WhatsApp Web the
@@ -15,6 +32,8 @@ const { Client, LocalAuth } = pkg;
 export class WhatsAppConnector {
   constructor({ dataPath, puppeteerExecutablePath }) {
     this.state = { status: 'starting', qrDataUrl: null, info: null, lastError: null };
+
+    clearStaleChromiumLock(dataPath, undefined);
 
     this.client = new Client({
       authStrategy: new LocalAuth({ dataPath }),

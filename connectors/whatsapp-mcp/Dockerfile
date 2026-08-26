@@ -20,7 +20,6 @@ COPY src ./src
 
 ENV PORT=8788
 ENV WHATSAPP_SESSION_PATH=/data/session
-VOLUME ["/data"]
 EXPOSE 8788
 
 CMD ["node", "src/index.js"]
