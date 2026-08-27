@@ -37,6 +37,12 @@ export class WhatsAppConnector {
 
     this.client = new Client({
       authStrategy: new LocalAuth({ dataPath }),
+      // Don't pin to whatsapp-web.js's bundled WhatsApp Web version — it goes
+      // stale between library releases and WhatsApp's servers reject old
+      // clients with a "Can't connect now" error on the phone during
+      // linking. `type: 'none'` makes it always load whatever version
+      // WhatsApp is actually serving live.
+      webVersionCache: { type: 'none' },
       puppeteer: {
         headless: true,
         executablePath: puppeteerExecutablePath || undefined,
