@@ -1,0 +1,25 @@
+diff --git a/node_modules/whatsapp-web.js/src/util/Puppeteer.js b/node_modules/whatsapp-web.js/src/util/Puppeteer.js
+index 54df700..1af5c48 100644
+--- a/node_modules/whatsapp-web.js/src/util/Puppeteer.js
++++ b/node_modules/whatsapp-web.js/src/util/Puppeteer.js
+@@ -17,7 +17,19 @@ async function exposeFunctionIfAbsent(page, name, fn) {
+     if (exist) {
+         return;
+     }
+-    await page.exposeFunction(name, fn);
++    try {
++        await page.exposeFunction(name, fn);
++    } catch (err) {
++        // Client.inject() can run twice in quick succession around a page
++        // reload (WhatsApp Web sometimes reloads mid-handshake), racing two
++        // concurrent calls past the check above before either binding lands.
++        // The second exposeFunction then throws "already exists" even though
++        // the function is otherwise fine to use — treat that as a no-op
++        // instead of crashing the process.
++        if (!/already exists/.test(err.message)) {
++            throw err;
++        }
++    }
+ }
+ 
+ module.exports = { exposeFunctionIfAbsent };

@@ -14,6 +14,7 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 WORKDIR /app
 
 COPY package.json package-lock.json* ./
+COPY patches ./patches
 RUN npm install --omit=dev
 
 COPY src ./src
