@@ -88,6 +88,57 @@ and `https://whatsapp.your-host`; substitute your actual hosts/ports
 (`https://your-host:8787`, `https://your-host:8788`) if you're not using
 subdomains.
 
+## WhatsApp linking fails from a cloud host ("Can't connect now" / "Couldn't link device")
+
+WhatsApp's anti-abuse system is known to be much stricter about device
+*linking* (not regular use — just the initial QR handshake) when it comes
+from a datacenter IP range (Railway, AWS, GCP, most VPS providers) than from
+a home or mobile network. If linking keeps failing on a cloud host with no
+error on the connector's own `/status`/logs — the process stays healthy,
+just nothing progresses past `awaiting_qr_scan` — this is almost always the
+cause, not a bug in the connector.
+
+The fix is to run **whatsapp-mcp specifically** from a machine on a
+residential/mobile IP, and expose it publicly with a tunnel so it's still
+reachable from every device. `metabase-mcp` has no such restriction and can
+stay wherever you already deployed it.
+
+1. On that machine: `cd connectors/whatsapp-mcp && npm install`
+2. Reuse the **same** `CONNECTOR_AUTH_TOKEN` you already configured Claude
+   with, so nothing on the client side needs to change:
+   ```bash
+   cat > .env <<EOF
+   PORT=8788
+   CONNECTOR_AUTH_TOKEN=your-existing-token
+   WHATSAPP_SESSION_PATH=./session
+   EOF
+   npm start
+   ```
+3. In another terminal, install [`cloudflared`](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/)
+   and start a tunnel to the local port — no Cloudflare account needed for a
+   quick test:
+   ```bash
+   cloudflared tunnel --url http://localhost:8788
+   ```
+   It prints a public `https://<random>.trycloudflare.com` URL. Use that in
+   place of your old Railway URL for the `/qr`, `/status`, and `/mcp`
+   endpoints (and in your `claude mcp add` / `claude_desktop_config.json`
+   entries).
+4. Try linking again via `https://<random>.trycloudflare.com/qr?token=...`.
+   If it links successfully this time, that confirms the IP was the issue.
+
+That quick-tunnel URL changes every time `cloudflared` restarts, which is
+fine for testing but annoying long-term. Once linking is confirmed working,
+make it permanent by keeping `whatsapp-mcp` running as a background service
+(e.g. `pm2 start npm --name whatsapp-mcp -- start`) on an always-on machine
+(a spare mini PC or Raspberry Pi at home works well — it just needs to stay
+powered on and connected), and either:
+- run a [named Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+  routed to a hostname on a domain you control (a stable URL that survives
+  restarts), or
+- use a tunnel provider with a free static domain (e.g. ngrok's free plan)
+  if you don't have a domain handy.
+
 ## 3. Link WhatsApp (one-time)
 
 Open `https://whatsapp.your-host/qr?token=YOUR_TOKEN` (or
