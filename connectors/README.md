@@ -208,7 +208,9 @@ third-party package that updates independently of this repo.)
 ## Tools exposed
 
 **metabase-mcp:** `list_databases`, `list_dashboards`, `get_dashboard`,
-`list_questions`, `get_question`, `run_question`, `run_sql`, `search`.
+`list_questions`, `get_question`, `run_question`, `run_sql`, `search`,
+`create_question`, `update_question`, `archive_question`,
+`create_dashboard`, `archive_dashboard`, `add_question_to_dashboard`.
 
 **whatsapp-mcp:** `get_status`, `send_message`, `list_chats`,
 `get_messages`, `search_contacts`.
