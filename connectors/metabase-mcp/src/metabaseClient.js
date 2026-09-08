@@ -110,4 +110,89 @@ export class MetabaseClient {
   search(q, { models } = {}) {
     return this._request('/api/search', { query: { q, models } });
   }
+
+  createQuestion({ name, databaseId, query, display, description, collectionId }) {
+    return this._request('/api/card', {
+      method: 'POST',
+      body: {
+        name,
+        description: description ?? null,
+        dataset_query: { type: 'native', native: { query }, database: databaseId },
+        display: display ?? 'table',
+        visualization_settings: {},
+        collection_id: collectionId ?? null,
+      },
+    });
+  }
+
+  async updateQuestion(id, { name, description, query, databaseId }) {
+    const body = {};
+    if (name !== undefined) body.name = name;
+    if (description !== undefined) body.description = description;
+    if (query !== undefined) {
+      // dataset_query isn't a partial-mergeable field — Metabase needs the
+      // whole query object, so pull the current database id forward unless
+      // the caller is also changing it.
+      const current = databaseId === undefined ? await this.getCard(id) : null;
+      body.dataset_query = {
+        type: 'native',
+        native: { query },
+        database: databaseId ?? current.dataset_query.database,
+      };
+    }
+    return this._request(`/api/card/${encodeURIComponent(id)}`, { method: 'PUT', body });
+  }
+
+  archiveQuestion(id) {
+    return this._request(`/api/card/${encodeURIComponent(id)}`, { method: 'PUT', body: { archived: true } });
+  }
+
+  createDashboard({ name, description, collectionId }) {
+    return this._request('/api/dashboard', {
+      method: 'POST',
+      body: { name, description: description ?? null, collection_id: collectionId ?? null },
+    });
+  }
+
+  archiveDashboard(id) {
+    return this._request(`/api/dashboard/${encodeURIComponent(id)}`, { method: 'PUT', body: { archived: true } });
+  }
+
+  async addQuestionToDashboard({ dashboardId, questionId, row, col, sizeX, sizeY, dashboardTabId }) {
+    const dashboard = await this.getDashboard(dashboardId);
+    const existing = (dashboard.dashcards ?? []).map((dc) => ({
+      id: dc.id,
+      card_id: dc.card_id,
+      row: dc.row,
+      col: dc.col,
+      size_x: dc.size_x,
+      size_y: dc.size_y,
+      series: dc.series ?? [],
+      parameter_mappings: dc.parameter_mappings ?? [],
+      visualization_settings: dc.visualization_settings ?? {},
+      dashboard_tab_id: dc.dashboard_tab_id ?? null,
+    }));
+
+    const targetTabId = dashboardTabId ?? existing[0]?.dashboard_tab_id ?? null;
+    const cardsOnTargetTab = existing.filter((dc) => dc.dashboard_tab_id === targetTabId);
+    const defaultRow = cardsOnTargetTab.reduce((max, dc) => Math.max(max, dc.row + dc.size_y), 0);
+
+    const newCard = {
+      id: -1,
+      card_id: questionId,
+      row: row ?? defaultRow,
+      col: col ?? 0,
+      size_x: sizeX ?? 12,
+      size_y: sizeY ?? 8,
+      series: [],
+      parameter_mappings: [],
+      visualization_settings: {},
+      dashboard_tab_id: targetTabId,
+    };
+
+    return this._request(`/api/dashboard/${encodeURIComponent(dashboardId)}`, {
+      method: 'PUT',
+      body: { dashcards: [...existing, newCard] },
+    });
+  }
 }
