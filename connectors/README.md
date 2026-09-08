@@ -212,7 +212,7 @@ third-party package that updates independently of this repo.)
 `list_table_fields`, `create_question`, `update_question`,
 `archive_question`, `restore_question`, `create_dashboard`,
 `archive_dashboard`, `restore_dashboard`, `add_question_to_dashboard`,
-`add_dashboard_filter`.
+`move_dashboard_card`, `add_dashboard_filter`.
 
 A query using `{{tag}}` placeholders (with or without `[[ optional ]]`
 brackets) needs a matching `templateTags` entry on `create_question` /
