@@ -13,6 +13,34 @@ const metabase = new MetabaseClient({
   apiKey: process.env.METABASE_API_KEY,
 });
 
+const templateTagSchema = z
+  .array(
+    z.object({
+      name: z.string().describe('Must exactly match the {{name}} used in the SQL'),
+      type: z
+        .enum(['text', 'number', 'date', 'dimension'])
+        .describe(
+          '"text"/"number"/"date" substitute a single literal value where {{name}} appears. "dimension" is a ' +
+            'Field Filter bound to a real column (needs dimensionFieldId, from list_table_fields) — required for ' +
+            'a proper relative-date dropdown ("past 7 days" etc.) via add_dashboard_filter, and for the tag to be ' +
+            'used as a whole boolean condition like "WHERE {{name}}" rather than a scalar substitution.'
+        ),
+      displayName: z.string().optional(),
+      default: z.any().optional(),
+      dimensionFieldId: z.number().int().optional().describe('Required when type is "dimension" — the column\'s field ID from list_table_fields'),
+      widgetType: z
+        .string()
+        .optional()
+        .describe('Widget for a dimension tag, e.g. "date/all-options" for the full relative-date picker (defaults to "string/=")'),
+    })
+  )
+  .optional()
+  .describe(
+    'Declare one entry per {{tag}} referenced in the SQL. Required whenever the query contains {{...}} — ' +
+      'without a matching declaration Metabase leaves it as literal text (including any surrounding [[ ]] ' +
+      'brackets) instead of parsing it as a filter, and the raw SQL sent to the database breaks.'
+  );
+
 function createServer() {
   const server = new McpServer({ name: 'metabase-mcp', version: '1.0.0' });
 
@@ -80,13 +108,32 @@ function createServer() {
       description:
         'Run a native SQL query against one of the databases connected to Metabase and return the result rows. ' +
         'Use list_databases first to find the databaseId. Prefer read-only queries — this executes with ' +
-        'whatever permissions the configured Metabase account has.',
+        'whatever permissions the configured Metabase account has. If the SQL uses {{tags}}, declare them in ' +
+        'templateTags and pass their values in parameters.',
       inputSchema: {
         databaseId: z.number().int().describe('Numeric database ID from list_databases'),
         query: z.string().describe('Raw SQL to execute'),
+        templateTags: templateTagSchema,
+        parameters: z
+          .array(z.object({ name: z.string(), value: z.any() }))
+          .optional()
+          .describe('Values for the declared templateTags — falls back to each tag\'s default if omitted'),
       },
     },
-    async ({ databaseId, query }) => asText(await metabase.runNativeQuery({ databaseId, query }))
+    async ({ databaseId, query, templateTags, parameters }) =>
+      asText(await metabase.runNativeQuery({ databaseId, query, templateTags, parameters }))
+  );
+
+  server.registerTool(
+    'list_table_fields',
+    {
+      title: 'List a table\'s columns',
+      description:
+        'List a table\'s columns with their Metabase field IDs — needed to set up a "dimension" (Field Filter) ' +
+        'template tag. Get tableId from list_databases (each database\'s tables array).',
+      inputSchema: { tableId: z.number().int() },
+    },
+    async ({ tableId }) => asText(await metabase.listTableFields(tableId))
   );
 
   server.registerTool(
@@ -105,11 +152,13 @@ function createServer() {
       title: 'Create a saved Metabase question',
       description:
         'Save a SQL query as a new Metabase question (card), so it can be re-run or edited later instead of ' +
-        're-pasting the query every time. Use list_databases first to find the databaseId.',
+        're-pasting the query every time. Use list_databases first to find the databaseId. If the SQL uses ' +
+        '{{tags}}, declare them in templateTags.',
       inputSchema: {
         name: z.string().describe('Question name, as it will appear in Metabase'),
         databaseId: z.number().int().describe('Numeric database ID from list_databases'),
         query: z.string().describe('SQL to save'),
+        templateTags: templateTagSchema,
         display: z
           .enum(['table', 'scalar', 'line', 'bar', 'row', 'pie', 'area', 'combo'])
           .optional()
@@ -127,10 +176,13 @@ function createServer() {
       title: 'Edit a saved Metabase question',
       description:
         'Update an existing question (card) in place — change its SQL, name, or description without creating a ' +
-        'new question or breaking dashboards/links that reference it.',
+        'new question or breaking dashboards/links that reference it. If query changes and templateTags is ' +
+        'omitted, the question\'s existing tags are kept as-is (any no longer referenced in the new SQL are ' +
+        'dropped); pass templateTags to change the tags themselves.',
       inputSchema: {
         questionId: z.number().int().describe('Numeric question/card ID to update'),
         query: z.string().optional().describe('New SQL, if changing it'),
+        templateTags: templateTagSchema,
         name: z.string().optional(),
         description: z.string().optional(),
         databaseId: z.number().int().optional().describe('Only needed if moving the question to a different database'),
@@ -147,6 +199,16 @@ function createServer() {
       inputSchema: { questionId: z.number().int() },
     },
     async ({ questionId }) => asText(await metabase.archiveQuestion(questionId))
+  );
+
+  server.registerTool(
+    'restore_question',
+    {
+      title: 'Restore an archived Metabase question',
+      description: 'Un-archive a question, restoring it from Metabase\'s trash.',
+      inputSchema: { questionId: z.number().int() },
+    },
+    async ({ questionId }) => asText(await metabase.restoreQuestion(questionId))
   );
 
   server.registerTool(
@@ -174,6 +236,16 @@ function createServer() {
   );
 
   server.registerTool(
+    'restore_dashboard',
+    {
+      title: 'Restore an archived Metabase dashboard',
+      description: 'Un-archive a dashboard, restoring it from Metabase\'s trash.',
+      inputSchema: { dashboardId: z.number().int() },
+    },
+    async ({ dashboardId }) => asText(await metabase.restoreDashboard(dashboardId))
+  );
+
+  server.registerTool(
     'add_question_to_dashboard',
     {
       title: 'Add a question to a dashboard',
@@ -192,6 +264,40 @@ function createServer() {
       },
     },
     async (args) => asText(await metabase.addQuestionToDashboard(args))
+  );
+
+  server.registerTool(
+    'add_dashboard_filter',
+    {
+      title: 'Add a dashboard filter widget',
+      description:
+        'Add a dashboard-level filter (e.g. a relative-date dropdown with "Previous 7 days / Previous 30 days / ' +
+        'All time" presets) and wire it to one or more cards\' template tags. This is what produces that ' +
+        'dropdown — for it to actually filter a query, that query\'s tag should usually be a "dimension" ' +
+        '(Field Filter) tag; see create_question\'s templateTags.',
+      inputSchema: {
+        dashboardId: z.number().int(),
+        name: z.string().describe('Filter name shown on the dashboard, e.g. "Date range"'),
+        type: z
+          .string()
+          .describe(
+            'Metabase parameter type, e.g. "date/all-options" (the full relative-date picker), "date/single", ' +
+              '"date/range", "string/=", "string/contains", "number/=", "category"'
+          ),
+        sectionId: z.string().optional().describe('Grouping shown in the filter picker, e.g. "date", "string", "number", "location", "id"'),
+        default: z.any().optional(),
+        mapTo: z
+          .array(
+            z.object({
+              cardId: z.number().int().describe('The question\'s ID (use dashcardId instead if the same question appears twice on this dashboard)'),
+              dashcardId: z.number().int().optional(),
+              tagName: z.string().describe('The {{tag}} name on that question this filter should control'),
+            })
+          )
+          .describe('Which question(s)/tag(s) this filter controls'),
+      },
+    },
+    async (args) => asText(await metabase.addDashboardFilter(args))
   );
 
   return server;
