@@ -190,10 +190,11 @@ export class MetabaseClient {
     });
   }
 
-  async updateQuestion(id, { name, description, query, databaseId, templateTags }) {
+  async updateQuestion(id, { name, description, query, databaseId, templateTags, display }) {
     const body = {};
     if (name !== undefined) body.name = name;
     if (description !== undefined) body.description = description;
+    if (display !== undefined) body.display = display;
     if (query !== undefined) {
       // dataset_query isn't a partial-mergeable field — Metabase needs the
       // whole query object, so pull the current database + tags forward

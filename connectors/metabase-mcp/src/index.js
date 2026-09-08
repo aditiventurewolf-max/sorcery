@@ -13,6 +13,8 @@ const metabase = new MetabaseClient({
   apiKey: process.env.METABASE_API_KEY,
 });
 
+const displaySchema = z.enum(['table', 'scalar', 'line', 'bar', 'row', 'pie', 'area', 'combo']);
+
 const templateTagSchema = z
   .array(
     z.object({
@@ -159,10 +161,7 @@ function createServer() {
         databaseId: z.number().int().describe('Numeric database ID from list_databases'),
         query: z.string().describe('SQL to save'),
         templateTags: templateTagSchema,
-        display: z
-          .enum(['table', 'scalar', 'line', 'bar', 'row', 'pie', 'area', 'combo'])
-          .optional()
-          .describe('Visualization type (defaults to table)'),
+        display: displaySchema.optional().describe('Visualization type (defaults to table)'),
         description: z.string().optional(),
         collectionId: z.number().int().optional().describe('Collection to save it into (defaults to root)'),
       },
@@ -175,16 +174,17 @@ function createServer() {
     {
       title: 'Edit a saved Metabase question',
       description:
-        'Update an existing question (card) in place — change its SQL, name, or description without creating a ' +
-        'new question or breaking dashboards/links that reference it. If query changes and templateTags is ' +
-        'omitted, the question\'s existing tags are kept as-is (any no longer referenced in the new SQL are ' +
-        'dropped); pass templateTags to change the tags themselves.',
+        'Update an existing question (card) in place — change its SQL, name, description, or visualization type ' +
+        'without creating a new question or breaking dashboards/links that reference it. If query changes and ' +
+        'templateTags is omitted, the question\'s existing tags are kept as-is (any no longer referenced in the ' +
+        'new SQL are dropped); pass templateTags to change the tags themselves.',
       inputSchema: {
         questionId: z.number().int().describe('Numeric question/card ID to update'),
         query: z.string().optional().describe('New SQL, if changing it'),
         templateTags: templateTagSchema,
         name: z.string().optional(),
         description: z.string().optional(),
+        display: displaySchema.optional().describe('Visualization type, e.g. switch a table to a line/bar/scalar chart'),
         databaseId: z.number().int().optional().describe('Only needed if moving the question to a different database'),
       },
     },
