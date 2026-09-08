@@ -209,8 +209,18 @@ third-party package that updates independently of this repo.)
 
 **metabase-mcp:** `list_databases`, `list_dashboards`, `get_dashboard`,
 `list_questions`, `get_question`, `run_question`, `run_sql`, `search`,
-`create_question`, `update_question`, `archive_question`,
-`create_dashboard`, `archive_dashboard`, `add_question_to_dashboard`.
+`list_table_fields`, `create_question`, `update_question`,
+`archive_question`, `restore_question`, `create_dashboard`,
+`archive_dashboard`, `restore_dashboard`, `add_question_to_dashboard`,
+`add_dashboard_filter`.
+
+A query using `{{tag}}` placeholders (with or without `[[ optional ]]`
+brackets) needs a matching `templateTags` entry on `create_question` /
+`update_question` / `run_sql`, or Metabase leaves it as literal text and the
+database chokes on it. For a proper "Previous 7 days / Previous 30 days /
+All time" dropdown (not just a single date input), use a `"dimension"`-type
+tag bound to a real column (`list_table_fields` finds the column's field
+ID) together with `add_dashboard_filter`.
 
 **whatsapp-mcp:** `get_status`, `send_message`, `list_chats`,
 `get_messages`, `search_contacts`.
