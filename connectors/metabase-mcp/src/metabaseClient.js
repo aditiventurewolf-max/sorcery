@@ -59,6 +59,24 @@ function slugify(name) {
   return name.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
 }
 
+// Metabase's dashboard PUT expects the *entire* dashcards array back, so
+// every operation that touches one card's layout has to round-trip every
+// other card's fields untouched — this is that shared shape.
+function toDashcardInput(dc) {
+  return {
+    id: dc.id,
+    card_id: dc.card_id,
+    row: dc.row,
+    col: dc.col,
+    size_x: dc.size_x,
+    size_y: dc.size_y,
+    series: dc.series ?? [],
+    parameter_mappings: dc.parameter_mappings ?? [],
+    visualization_settings: dc.visualization_settings ?? {},
+    dashboard_tab_id: dc.dashboard_tab_id ?? null,
+  };
+}
+
 export class MetabaseClient {
   constructor({ baseUrl, username, password, apiKey }) {
     if (!baseUrl) throw new Error('METABASE_URL is required');
@@ -248,18 +266,7 @@ export class MetabaseClient {
 
   async addQuestionToDashboard({ dashboardId, questionId, row, col, sizeX, sizeY, dashboardTabId }) {
     const dashboard = await this.getDashboard(dashboardId);
-    const existing = (dashboard.dashcards ?? []).map((dc) => ({
-      id: dc.id,
-      card_id: dc.card_id,
-      row: dc.row,
-      col: dc.col,
-      size_x: dc.size_x,
-      size_y: dc.size_y,
-      series: dc.series ?? [],
-      parameter_mappings: dc.parameter_mappings ?? [],
-      visualization_settings: dc.visualization_settings ?? {},
-      dashboard_tab_id: dc.dashboard_tab_id ?? null,
-    }));
+    const existing = (dashboard.dashcards ?? []).map(toDashcardInput);
 
     const targetTabId = dashboardTabId ?? existing[0]?.dashboard_tab_id ?? null;
     const cardsOnTargetTab = existing.filter((dc) => dc.dashboard_tab_id === targetTabId);
@@ -281,6 +288,35 @@ export class MetabaseClient {
     return this._request(`/api/dashboard/${encodeURIComponent(dashboardId)}`, {
       method: 'PUT',
       body: { dashcards: [...existing, newCard] },
+    });
+  }
+
+  /**
+   * Repositions, resizes, and/or moves-between-tabs an existing dashcard.
+   * Only the fields provided are changed; everything else on this card and
+   * every other card on the dashboard is round-tripped unchanged.
+   */
+  async moveDashboardCard({ dashboardId, dashcardId, row, col, sizeX, sizeY, dashboardTabId }) {
+    const dashboard = await this.getDashboard(dashboardId);
+    const target = (dashboard.dashcards ?? []).find((dc) => dc.id === dashcardId);
+    if (!target) throw new Error(`No dashcard with id ${dashcardId} on dashboard ${dashboardId}`);
+
+    const dashcards = dashboard.dashcards.map((dc) => {
+      const input = toDashcardInput(dc);
+      if (dc.id !== dashcardId) return input;
+      return {
+        ...input,
+        row: row ?? input.row,
+        col: col ?? input.col,
+        size_x: sizeX ?? input.size_x,
+        size_y: sizeY ?? input.size_y,
+        dashboard_tab_id: dashboardTabId !== undefined ? dashboardTabId : input.dashboard_tab_id,
+      };
+    });
+
+    return this._request(`/api/dashboard/${encodeURIComponent(dashboardId)}`, {
+      method: 'PUT',
+      body: { dashcards },
     });
   }
 
@@ -307,25 +343,14 @@ export class MetabaseClient {
 
     const dashcards = (dashboard.dashcards ?? []).map((dc) => {
       const mapping = mapToByCard.get(dc.id) ?? mapToByCard.get(`card:${dc.card_id}`);
-      const parameterMappings = [...(dc.parameter_mappings ?? [])];
-      if (mapping) {
-        parameterMappings.push({
-          parameter_id: parameterId,
-          card_id: dc.card_id,
-          target: ['variable', ['template-tag', mapping.tagName]],
-        });
-      }
+      const input = toDashcardInput(dc);
+      if (!mapping) return input;
       return {
-        id: dc.id,
-        card_id: dc.card_id,
-        row: dc.row,
-        col: dc.col,
-        size_x: dc.size_x,
-        size_y: dc.size_y,
-        series: dc.series ?? [],
-        parameter_mappings: parameterMappings,
-        visualization_settings: dc.visualization_settings ?? {},
-        dashboard_tab_id: dc.dashboard_tab_id ?? null,
+        ...input,
+        parameter_mappings: [
+          ...input.parameter_mappings,
+          { parameter_id: parameterId, card_id: dc.card_id, target: ['variable', ['template-tag', mapping.tagName]] },
+        ],
       };
     });
 

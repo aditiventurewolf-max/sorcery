@@ -267,6 +267,27 @@ function createServer() {
   );
 
   server.registerTool(
+    'move_dashboard_card',
+    {
+      title: 'Reposition/resize a card already on a dashboard',
+      description:
+        'Change the row, column, size, or tab of a card that\'s already been placed on a dashboard (get the ' +
+        "dashcardId from get_dashboard's dashcards array — it's each entry's own id, not the question's id). " +
+        'Only the fields provided are changed.',
+      inputSchema: {
+        dashboardId: z.number().int(),
+        dashcardId: z.number().int().describe('The dashcard\'s own ID (get_dashboard -> dashcards[].id), not the question ID'),
+        row: z.number().int().optional(),
+        col: z.number().int().optional(),
+        sizeX: z.number().int().optional().describe('Width in grid units (24-wide grid)'),
+        sizeY: z.number().int().optional().describe('Height in grid units'),
+        dashboardTabId: z.number().int().optional().describe('Move it to a different tab'),
+      },
+    },
+    async (args) => asText(await metabase.moveDashboardCard(args))
+  );
+
+  server.registerTool(
     'add_dashboard_filter',
     {
       title: 'Add a dashboard filter widget',
